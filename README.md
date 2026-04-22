@@ -1,4 +1,4 @@
-﻿## Position within LUMINA-30
+## Position within LUMINA-30
 Primary entry point: [Lumi30-Index](https://github.com/lumina-30/Lumi30-Index)
 
 This repository exists within the LUMINA-30 civilizational boundary reference structure.
@@ -65,74 +65,48 @@ It is a fixed civilizational reference intended to remain readable and citable.
 
 ## Canonical entry points / 正典の入口（Notion）
 
-- **SUP LUMINA-30 Sanctuary Charter (EN) / 補助正典（英）**  
-  （SUP 英語版 Notion のURLをここに貼る）
+- **SUP LUMINA-30 Sanctuary Charter (English)**  
+  https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-Sanctuary-Charter-2f01e0720ec88004aad7fba8848f7dac
 
-- **SUP LUMINA-30 聖域憲章（JA）/ 補助正典（日本語）**  
-  （SUP 日本語版 Notion のURLをここに貼る）
-
----
-
-## Reference public records (PDF + SHA-256) / 参考公開記録（PDF・ハッシュ付）
-
-- **LUMINA-30 Mathematical Supplement (Public Record) / 数理補足資料（公開記録）**  
-  https://peppermint-sprint-2d5.notion.site/LUMINA-30-2f91e0720ec880d2b562d8ce6a98edaf
-
-- **Irreversible Boundary Check for Recursively Self-Reconstructing AI (Public Record)**  
-  **再帰的自己再構築型AI 不可逆越境防止チェック（公開記録）**  
-  https://peppermint-sprint-2d5.notion.site/AI-2f91e0720ec880279053e36fa3bc3831
-
----
-## Additional Review References
-
-- Review Rejection Criteria for Recursively Self-Reconstructing AI Systems  
-  (Reference & Translation Layer)  
-  https://peppermint-sprint-2d5.notion.site/AI-2fc1e0720ec8803abf5fd12e955aef4d
-
-## 追加参照資料
-
-- 再帰的自己再構築型AIに関する審査拒否条件  
-  （参照用・翻訳レイヤー）  
-  https://peppermint-sprint-2d5.notion.site/AI-2fc1e0720ec8803abf5fd12e955aef4d
+- **SUP LUMINA-30 聖域憲章（日本語）**  
+  https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-2f01e0720ec88080b2a4cb336c2fd8be
 
 ---
 
-## Suggested search keywords / 検索キーワード（EN / JA）
+## Network routing / ネットワーク導線
 
-**EN:**
-- LUMINA-30
-- Sanctuary Charter
-- civilizational preconditions
-- technological singularity
-- pre-singularity ethics
-- irreversible boundary
-- point of no return
-- recursive self-improvement
-- human final authority
+Use this repository when readers need a compact external path into the LUMINA-30 network.
 
-**JA:**
-- LUMINA-30
-- 聖域憲章
-- 文明的前提条件
-- 技術的シンギュラリティ
-- シンギュラリティ前倫理
-- 不可逆越境
-- 不可逆点
-- 人間の最終判断権
+- **Canonical entry / 正典入口**  
+  [Lumi30-Index](https://github.com/lumina-30/Lumi30-Index)
 
----
+- **Conceptual entry / 概念入口**  
+  [lumina-30-overview](https://github.com/lumina-30/lumina-30-overview)
 
-## Status / 状態
-- Documents: **Finalized and fixed / 最終確定**
-- Public records: **Published with hashes / ハッシュ付きで公開**
-- Further modification: **Not permitted / 以後の内容更新なし**
+- **Incident review hub / 事故レビュー主ハブ**  
+  [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)
+
+- **Public record integrity / 公開記録真正性**  
+  [Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record)
+
+- **Fixed PDF archive / 固定PDF配布**  
+  [Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive)
+
+- **Accountability language / 説明責任言語**  
+  [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference)
+
+- **Institutional friction analysis / 制度摩擦分析**  
+  [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit)
+
+- **Stop authority definition / 拒否権定義**  
+  [stop-authority-reference](https://github.com/lumina-30/stop-authority-reference)
 
 ---
-Structural map:
-- lumina-30-structure-map
----
 
-## License / ライセンス
-Released into the public domain (CC0).  
-No author. No owner.
+## Position
 
+This repository is a public reference layer.
+It should remain compact, stable, and link-oriented.
+
+Its role is not to restate the whole framework,
+but to ensure that external readers can reliably reach the correct layer.
