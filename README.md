@@ -1,13 +1,25 @@
 ## Position within LUMINA-30
-Primary entry point: [Lumi30-Index](https://github.com/lumina-30/Lumi30-Index)
 
-This repository exists within the LUMINA-30 civilizational boundary reference structure.
+Primary users / 主な対象者: public readers, citation users, external reviewers, and people who need a compact entry point.  
+一般公開読者、引用利用者、外部レビュー担当、簡潔な入口を必要とする読者向け。
 
-It is non-binding and descriptive.
-It does not mandate action, propose policy, or prescribe implementation.
+Use this repository when you need a compact public-facing route into LUMINA-30.  
+LUMINA-30への公開向け簡易導線が必要な場合に使用。
 
-Hub (structural map):
-https://github.com/lumina-30/lumina-30-overview
+For detailed conceptual understanding, use the Overview. For operational review, use incident-review.  
+概念理解には Overview、実務レビューには incident-review を使用。
+
+- [LUMINA-30 Overview / LUMINA-30 概要](https://github.com/lumina-30/lumina-30-overview)  
+  Use this for visual and conceptual understanding.  
+  視覚的・概念的理解に使用。
+
+- [Lumi30-Index / LUMINA-30 索引](https://github.com/lumina-30/Lumi30-Index)  
+  Use this to navigate the full repository network.  
+  repo群全体の導線確認に使用。
+
+- [Public Record / 公開記録](https://github.com/lumina-30/Lumi30-Public-Record)  
+  Use this when fixed public record identity or hashes are needed.  
+  固定公開記録の識別子やハッシュ確認に使用。
 
 ---
 
@@ -31,11 +43,13 @@ It constitutes only a part of a broader risk-mitigation structure.
 
 ## Canonical & Supplementary References
 
-**SUP LUMINA-30 Sanctuary Charter (English)**  
-🔗 https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-Sanctuary-Charter-2f01e0720ec88004aad7fba8848f7dac
+[SUP LUMINA-30 Sanctuary Charter (English)](https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-Sanctuary-Charter-2f01e0720ec88004aad7fba8848f7dac)  
+Canonical English public reference.  
+英語版の正典公開参照。
 
-**SUP LUMINA-30 聖域憲章（日本語）**  
-🔗 https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-2f01e0720ec88080b2a4cb336c2fd8be
+[SUP LUMINA-30 聖域憲章（日本語）](https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-2f01e0720ec88080b2a4cb336c2fd8be)  
+Canonical Japanese public reference.  
+日本語版の正典公開参照。
 
 ## EN (Overview)
 This repository is a public reference index for **LUMINA-30**.
@@ -65,11 +79,13 @@ It is a fixed civilizational reference intended to remain readable and citable.
 
 ## Canonical entry points / 正典の入口（Notion）
 
-- **SUP LUMINA-30 Sanctuary Charter (English)**  
-  https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-Sanctuary-Charter-2f01e0720ec88004aad7fba8848f7dac
+- [SUP LUMINA-30 Sanctuary Charter (English)](https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-Sanctuary-Charter-2f01e0720ec88004aad7fba8848f7dac)  
+  Canonical English public reference.  
+  英語版の正典公開参照。
 
-- **SUP LUMINA-30 聖域憲章（日本語）**  
-  https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-2f01e0720ec88080b2a4cb336c2fd8be
+- [SUP LUMINA-30 聖域憲章（日本語）](https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-2f01e0720ec88080b2a4cb336c2fd8be)  
+  Canonical Japanese public reference.  
+  日本語版の正典公開参照。
 
 ---
 
@@ -77,29 +93,37 @@ It is a fixed civilizational reference intended to remain readable and citable.
 
 Use this repository when readers need a compact external path into the LUMINA-30 network.
 
-- **Canonical entry / 正典入口**  
-  [Lumi30-Index](https://github.com/lumina-30/Lumi30-Index)
+- [Lumi30-Index / LUMINA-30 索引](https://github.com/lumina-30/Lumi30-Index)  
+  Start here for the full repository network.  
+  repo群全体を確認する入口。
 
-- **Conceptual entry / 概念入口**  
-  [lumina-30-overview](https://github.com/lumina-30/lumina-30-overview)
+- [LUMINA-30 Overview / LUMINA-30 概要](https://github.com/lumina-30/lumina-30-overview)  
+  Start here for the conceptual overview and visual navigation.  
+  概念概要と視覚導線を確認する入口。
 
-- **Incident review hub / 事故レビュー主ハブ**  
-  [lumina30-incident-review](https://github.com/lumina-30/lumina30-incident-review)
+- [Incident Review Hub / 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)  
+  Use this for incident review and boundary checks.  
+  事故レビューと境界判定に使用。
 
-- **Public record integrity / 公開記録真正性**  
-  [Lumi30-Public-Record](https://github.com/lumina-30/Lumi30-Public-Record)
+- [Public Record / 公開記録真正性](https://github.com/lumina-30/Lumi30-Public-Record)  
+  Use this for fixed record identity and hashes.  
+  固定記録識別子とハッシュ確認に使用。
 
-- **Fixed PDF archive / 固定PDF配布**  
-  [Lumi30-PDF-Archive](https://github.com/lumina-30/Lumi30-PDF-Archive)
+- [PDF Archive / PDF固定配布](https://github.com/lumina-30/Lumi30-PDF-Archive)  
+  Use this for stable downloadable PDF files.  
+  安定配布用PDFの確認に使用。
 
-- **Accountability language / 説明責任言語**  
-  [ai-accountability-reference](https://github.com/lumina-30/ai-accountability-reference)
+- [AI Accountability Reference / 説明責任参照](https://github.com/lumina-30/ai-accountability-reference)  
+  Use this for accountability and responsibility-continuity language.  
+  説明責任と責任連続性の言語確認に使用。
 
-- **Institutional friction analysis / 制度摩擦分析**  
-  [institutional-friction-toolkit](https://github.com/lumina-30/institutional-friction-toolkit)
+- [Institutional Friction Toolkit / 制度摩擦ツールキット](https://github.com/lumina-30/institutional-friction-toolkit)  
+  Use this for failure-to-stop and procedural invalidity analysis.  
+  停止不全と手続的無効の分析に使用。
 
-- **Stop authority definition / 拒否権定義**  
-  [stop-authority-reference](https://github.com/lumina-30/stop-authority-reference)
+- [Stop Authority Reference / 拒否権定義アンカー](https://github.com/lumina-30/stop-authority-reference)  
+  Use this for compact definitions of stop/refusal authority.  
+  stop/refusal authority の簡潔定義に使用。
 
 ---
 
