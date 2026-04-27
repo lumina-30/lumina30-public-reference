@@ -40,8 +40,6 @@ Citation route:
 
 This repository does not replace the core text, incident-review tools, or fixed public records.
 
-Public Reference Index / 公開参照インデックス
-
 This material:
 - is not a recommendation.
 - does not provide safe-harbor or liability protection.
