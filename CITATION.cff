@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you cite or reference LUMINA-30, cite the public reference entry and the relevant DOI or repository layer."
+title: "LUMINA-30 Public Reference Index"
+authors:
+  - family-names: "Arden"
+    given-names: "Elias"
+year: 2026
+url: "https://github.com/lumina-30/lumina30-public-reference"
+repository-code: "https://github.com/lumina-30/lumina30-public-reference"
+abstract: >
+  Public citation and discovery entry for LUMINA-30, a non-binding boundary-check
+  framework asking whether Human Refusal Authority remained effective before
+  Irreversible Impact in AI-related review contexts.
+keywords:
+  - LUMINA-30
+  - AI governance
+  - AI incident review
+  - human refusal authority
+  - irreversible AI impact
+  - boundary check
+  - procedural invalidity
+references:
+  - type: generic
+    title: "Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Framework for Irreversibility Risk"
+    authors:
+      - family-names: "Arden"
+        given-names: "Elias"
+    doi: "10.5281/zenodo.18824181"
+    year: 2026
+    url: "https://doi.org/10.5281/zenodo.18824181"
