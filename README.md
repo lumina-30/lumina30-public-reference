@@ -161,6 +161,23 @@ Use this repository when readers need a compact external path into the LUMINA-30
 
 ---
 
+## External Visibility Tracking
+
+LUMINA-30 distinguishes public availability from observed external visibility.
+
+Use the following documents to record whether GitHub, Zenodo, DOI / DataCite, arXiv proxy evidence, and external references are actually observable.
+
+- [External Visibility Tracking](./observability/External_Visibility_Tracking.md)  
+  Defines what evidence may be used to assess external visibility without overclaiming adoption.
+
+- [Visibility Snapshot Template](./observability/LUMINA30_Visibility_Snapshot_Template.md)  
+  Template for periodic visibility snapshots across GitHub, Zenodo, DOI / DataCite, arXiv proxy evidence, and external search results.
+
+- [Visibility Collection Script](./tools/collect_lumina30_visibility.ps1)  
+  Local PowerShell helper for collecting GitHub traffic and DataCite DOI-event signals where available.
+
+---
+
 ## Position
 
 This repository is a public reference layer.
