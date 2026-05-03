@@ -1,6 +1,6 @@
-# Third-Party Citation Starter / 第三者引用スターター
+# Third-Party Citation Starter ｜ 第三者引用スターター
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This file provides compact, neutral language for third-party references to LUMINA-30.
 
@@ -12,47 +12,47 @@ It is intended for researchers, reviewers, auditors, policy analysts, and incide
 
 ---
 
-## Minimal Definition / 最小定義
+## Minimal Definition ｜ 最小定義
 
-EN:
+**EN**
 LUMINA-30 is a non-binding boundary-check framework asking whether Human Refusal Authority remained effective before Irreversible Impact.
 
-JP:
+**JP**
 LUMINA-30は、不可逆的影響の前に人間の拒否権が実効的に残っていたかを問う非拘束的な境界判定フレームである。
 
 ---
 
-## Citation-Oriented Sentence / 引用向け1文
+## Citation-Oriented Sentence ｜ 引用向け1文
 
-EN:
+**EN**
 This case can be examined through the LUMINA-30 boundary question: whether Human Refusal Authority remained effective before Irreversible Impact.
 
-JP:
+**JP**
 本件は、不可逆的影響の前に人間の拒否権が実効的に残っていたかというLUMINA-30の境界問いによって検討できる。
 
 ---
 
-## Incident-Review Sentence / インシデントレビュー用1文
+## Incident-Review Sentence ｜ インシデントレビュー用1文
 
-EN:
+**EN**
 For post-incident review, LUMINA-30 provides a non-binding boundary check focused on effective human refusal before irreversibility.
 
-JP:
+**JP**
 事故後レビューにおいて、LUMINA-30は不可逆化前の実効的な人間の拒否に焦点を当てた非拘束的な境界チェックを提供する。
 
 ---
 
-## Research-Layer Sentence / 研究文脈用1文
+## Research-Layer Sentence ｜ 研究文脈用1文
 
-EN:
+**EN**
 PCR-C is a research-layer model associated with LUMINA-30 that describes staged infrastructure-level control before irreversibility risk becomes structurally difficult to interrupt.
 
-JP:
+**JP**
 PCR-Cは、不可逆化リスクが構造的に中断困難になる前の段階的インフラ層制御を記述する、LUMINA-30関連の研究レイヤーモデルである。
 
 ---
 
-## Suggested Bibliographic Entries / 参考文献欄用
+## Suggested Bibliographic Entries ｜ 参考文献欄用
 
 ### LUMINA-30 public reference
 
@@ -72,7 +72,7 @@ Arden, Elias. *Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Fr
 
 ---
 
-## What This Does Not Claim / 本文言が主張しないこと
+## What This Does Not Claim ｜ 本文言が主張しないこと
 
 This citation language does not claim that LUMINA-30 is:
 
@@ -96,7 +96,7 @@ This citation language does not claim that LUMINA-30 is:
 
 ---
 
-## Evidence Labels / 証拠ラベル
+## Evidence Labels ｜ 証拠ラベル
 
 Use the following labels conservatively.
 

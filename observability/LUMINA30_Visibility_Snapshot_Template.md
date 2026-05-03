@@ -1,11 +1,11 @@
-# LUMINA-30 Visibility Snapshot Template
+# LUMINA-30 Visibility Snapshot Template ｜ LUMINA-30 可視性スナップショットテンプレート
 
 Observation date: YYYY-MM-DD  
 Observer:  
 
 ---
 
-## 1. Summary
+## 1. Summary ｜ 要約
 
 | Category | Status | Notes |
 |---|---|---|
@@ -17,7 +17,7 @@ Observer:
 
 ---
 
-## 2. GitHub Traffic
+## 2. GitHub Traffic ｜ GitHubトラフィック
 
 | Repository | Views | Unique visitors | Clones | Unique cloners | Popular paths | Referrers | Notes |
 |---|---:|---:|---:|---:|---|---|---|
@@ -29,7 +29,7 @@ Observer:
 
 ---
 
-## 3. Zenodo Records
+## 3. Zenodo Records ｜ Zenodo記録
 
 | Record | Concept DOI | Version DOI | Views | Unique views | Downloads | Unique downloads | Data volume | Notes |
 |---|---|---|---:|---:|---:|---:|---:|---|
@@ -38,7 +38,7 @@ Observer:
 
 ---
 
-## 4. DOI / DataCite
+## 4. DOI and DataCite ｜ DOI・DataCite
 
 | DOI | Resolves | Usage events observed | Citation/reference events observed | Related identifiers | Notes |
 |---|---|---|---|---|---|
@@ -46,7 +46,7 @@ Observer:
 
 ---
 
-## 5. arXiv Proxy Evidence
+## 5. arXiv Proxy Evidence ｜ arXiv代理証拠
 
 | arXiv ID | URL resolves | DOI linked | External mentions | Search visibility | Citation evidence | Notes |
 |---|---|---|---|---|---|---|
@@ -54,7 +54,7 @@ Observer:
 
 ---
 
-## 6. External Search Evidence
+## 6. External Search Evidence ｜ 外部検索証拠
 
 | Query | Result found | Source | Result type | Notes |
 |---|---|---|---|---|
@@ -68,7 +68,7 @@ Observer:
 
 ---
 
-## 7. Interpretation
+## 7. Interpretation ｜ 解釈
 
 State only what the evidence supports.
 

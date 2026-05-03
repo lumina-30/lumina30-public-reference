@@ -1,4 +1,4 @@
-# External Visibility Tracking
+# External Visibility Tracking ｜ 外部可視性トラッキング
 
 This document defines how external visibility of LUMINA-30, PCR-C, related DOI records, Zenodo records, arXiv entries, and GitHub repositories should be monitored.
 
@@ -7,7 +7,7 @@ It only defines what evidence should be collected to determine whether external 
 
 ---
 
-## 1. Purpose
+## 1. Purpose ｜ 目的
 
 LUMINA-30 requires observable external reference paths.
 
@@ -22,7 +22,7 @@ Instead, visibility should be evaluated using recorded evidence.
 
 ---
 
-## 2. Observation Categories
+## 2. Observation Categories ｜ 観測カテゴリ
 
 External visibility should be tracked in five categories:
 
@@ -36,7 +36,7 @@ Each category should be recorded separately.
 
 ---
 
-## 3. GitHub Traffic
+## 3. GitHub Traffic ｜ GitHubトラフィック
 
 GitHub repository visibility should be tracked using repository traffic data where available.
 
@@ -58,7 +58,7 @@ Therefore, snapshots should be taken periodically.
 
 ---
 
-## 4. Zenodo Visibility
+## 4. Zenodo Visibility ｜ Zenodo可視性
 
 Zenodo visibility should be tracked for each relevant record and DOI.
 
@@ -80,7 +80,7 @@ When both Concept DOI and Version DOI exist, both should be recorded.
 
 ---
 
-## 5. DOI / DataCite Evidence
+## 5. DOI and DataCite Evidence ｜ DOI・DataCite証拠
 
 DOI visibility should be tracked through DataCite where available.
 
@@ -100,7 +100,7 @@ It should only be recorded as “no DataCite event observed.”
 
 ---
 
-## 6. arXiv Evidence
+## 6. arXiv Evidence ｜ arXiv証拠
 
 arXiv does not provide paper-level download statistics.
 
@@ -120,7 +120,7 @@ Do not claim arXiv download counts unless arXiv itself provides such data.
 
 ---
 
-## 7. External Search Evidence
+## 7. External Search Evidence ｜ 外部検索証拠
 
 Search evidence should be recorded conservatively.
 
@@ -149,7 +149,7 @@ Do not infer adoption from search presence alone.
 
 ---
 
-## 8. Interpretation Rules
+## 8. Interpretation Rules ｜ 解釈ルール
 
 Use the following interpretation rules:
 
@@ -165,7 +165,7 @@ Use the following interpretation rules:
 
 ---
 
-## 9. Status Labels
+## 9. Status Labels ｜ 状態ラベル
 
 Use these labels:
 
@@ -181,7 +181,7 @@ Use these labels:
 
 ---
 
-## 10. Non-Overclaim Rule
+## 10. Non-Overclaim Rule ｜ 過剰主張禁止ルール
 
 Visibility is not adoption.
 
