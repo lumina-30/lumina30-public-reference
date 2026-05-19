@@ -53,6 +53,7 @@ This material:
 - does not provide safe-harbor or liability protection.
 - does not guarantee safety, legality, or ethical adequacy.
 - does not delegate refusal authority to AI systems.
+- does not claim adoption, endorsement, regulatory status, certification, established consensus, or binding standard status.
 
 ## Safety Statement
 
@@ -95,7 +96,7 @@ It provides stable entry points to the canonical documents and their correspondi
 - a policy proposal
 - a product, service, or organization
 
-It is a fixed civilizational reference intended to remain readable and citable.
+It is a fixed public reference intended to remain readable and citable without implying adoption, endorsement, or institutional authority.
 
 ## JA（概要）
 このリポジトリは **LUMINA-30** の「公開参照インデックス」です。  
