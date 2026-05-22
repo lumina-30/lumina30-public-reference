@@ -14,6 +14,10 @@ For detailed conceptual understanding, use the Overview. For operational review,
   Use this for visual and conceptual understanding.  
   視覚的・概念的理解に使用。
 
+- [Reversible Prosperity Path ｜ 可逆的繁栄の道](https://lumina-30.github.io/lumina-30-overview/docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html) / [JP](https://lumina-30.github.io/lumina-30-overview/docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html)  
+  Use this for the positive route: progress that remains stoppable, reviewable, and reversible before irreversibility.  
+  不可逆化前に停止・検証・修正・撤回が可能であり続ける肯定側の道を確認する場合に使用。
+
 - [Canonical Index ｜ 正典索引](https://github.com/lumina-30/Lumi30-Index)  
   Use this to navigate the full repository network.  
   repo群全体の導線確認に使用。
@@ -36,8 +40,9 @@ Citation route:
 
 1. Use this repository for a compact public entry.
 2. Use `Lumi30-Index` for the full repository network.
-3. Use `Lumi30-Public-Record` or `Lumi30-PDF-Archive` when fixed records, hashes, or PDF artifacts are required.
-4. Use `lumina30-incident-review` when the question concerns incident review or boundary checks.
+3. Use the Reversible Prosperity Path page when the question concerns the positive route: progress without crossing irreversibility.
+4. Use `Lumi30-Public-Record` or `Lumi30-PDF-Archive` when fixed records, hashes, or PDF artifacts are required.
+5. Use `lumina30-incident-review` when the question concerns incident review or boundary checks.
 
 This repository does not replace the core text, incident-review tools, or fixed public records.
 
