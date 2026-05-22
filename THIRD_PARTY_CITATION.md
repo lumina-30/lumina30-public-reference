@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Third-Party Citation Starter ｜ 第三者引用スターター
 
 ## Purpose ｜ 目的

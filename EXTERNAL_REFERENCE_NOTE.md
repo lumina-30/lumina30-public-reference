@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # External Reference Note ｜ 外部参照メモ
 
 ## Purpose ｜ 目的

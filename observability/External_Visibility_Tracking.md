@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # External Visibility Tracking ｜ 外部可視性トラッキング
 
 This document defines how external visibility of LUMINA-30, PCR-C, related DOI records, Zenodo records, arXiv entries, and GitHub repositories should be monitored.

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 Visibility Snapshot Template ｜ LUMINA-30 可視性スナップショットテンプレート
 
 Observation date: YYYY-MM-DD  

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 ## Position within LUMINA-30
 
 Primary users ｜ 主な対象者: public readers, citation users, external reviewers, and people who need a compact entry point.  
