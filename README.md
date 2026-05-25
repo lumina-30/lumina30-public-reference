@@ -1,3 +1,13 @@
+> **Public Reference HTML ｜ 公開参照HTML**  
+> For reader-facing navigation, use the HTML version:  
+> [Open Public Reference HTML](https://lumina-30.github.io/lumina30-public-reference/)  
+>
+> 読者向けの移動にはHTML版を使用してください：  
+> [公開参照HTML版を開く](https://lumina-30.github.io/lumina30-public-reference/)  
+>
+> Markdown is retained for source text preservation, search discoverability, existing links, and source review.  
+> Markdownは、本文保管、検索到達性、既存リンク維持、ソース確認のために残しています。
+
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 ## Position within LUMINA-30
 
@@ -174,11 +184,11 @@ LUMINA-30 distinguishes public availability from observed external visibility.
 
 Use the following documents to record whether GitHub, Zenodo, DOI / DataCite, arXiv proxy evidence, and external references are actually observable.
 
-- [External Visibility Tracking](./observability/External_Visibility_Tracking.md)  
+- [External Visibility Tracking](https://lumina-30.github.io/lumina30-public-reference/observability/External_Visibility_Tracking.html)  
   Defines what evidence may be used to assess external visibility without overclaiming adoption.  
   採用を過剰主張せず、外部可視性を確認するための証拠基準を定義する。
 
-- [Visibility Snapshot Template](./observability/LUMINA30_Visibility_Snapshot_Template.md)  
+- [Visibility Snapshot Template](https://lumina-30.github.io/lumina30-public-reference/observability/LUMINA30_Visibility_Snapshot_Template.html)  
   Template for periodic visibility snapshots across GitHub, Zenodo, DOI / DataCite, arXiv proxy evidence, and external search results.  
   GitHub、Zenodo、DOI / DataCite、arXiv代理証拠、外部検索結果の定期観測テンプレート。
 
