@@ -5,7 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>External Visibility Tracking ｜ 外部可視性トラッキング</title>
 <style>
-:root { --fg:#1f2937; --muted:#6b7280; --line:#d1d5db; --bg:#ffffff; --soft:#f8fafc; }
+:root {
+  color-scheme: light dark;
+  --fg: CanvasText;
+  --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+  --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+  --bg: Canvas;
+  --soft: color-mix(in srgb, Canvas 88%, CanvasText 12%);
+}
 body { margin:0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.65; color:var(--fg); background:var(--bg); }
 main { max-width: 980px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
 nav { padding: .75rem 1rem; border-bottom:1px solid var(--line); background:var(--soft); position: sticky; top:0; z-index:1; }
@@ -402,3 +409,4 @@ only as visibility or access.</p>
 </main>
 </body>
 </html>
+
