@@ -1,16 +1,139 @@
 <!doctype html>
 <html lang="en" data-l30-lang-lock="EN_ONLY">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>LUMINA-30 Public Reference</title><style>:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--muted:color-mix(in srgb,CanvasText 68%,Canvas 32%);--line:color-mix(in srgb,CanvasText 28%,Canvas 72%);--soft:color-mix(in srgb,Canvas 88%,CanvasText 12%);--accent:LinkText}body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;max-width:900px;margin:0 auto;padding:2rem 1.25rem}nav a{margin-right:.75rem;color:var(--accent)}a{color:var(--accent)}li{margin:.35rem 0}.note{color:var(--muted)}</style></head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <title>LUMINA-30 Public Reference</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 67%, Canvas 33%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --panel: color-mix(in srgb, Canvas 93%, CanvasText 7%);
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+      --accent: LinkText;
+      --shadow: color-mix(in srgb, CanvasText 14%, transparent 86%);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top left, color-mix(in srgb, LinkText 12%, transparent 88%), transparent 32rem),
+        var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    a { color: var(--accent); }
+    main { max-width: 1040px; margin: 0 auto; padding: 1.25rem 1.1rem 4rem; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      backdrop-filter: blur(14px);
+      background: color-mix(in srgb, Canvas 86%, transparent 14%);
+      border-bottom: 1px solid var(--line);
+    }
+    .topbar-inner {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: .7rem 1.1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .55rem;
+      align-items: center;
+    }
+    .topbar a, .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: .25rem;
+      border: 1px solid var(--line);
+      background: var(--soft);
+      border-radius: 999px;
+      padding: .44rem .68rem;
+      text-decoration: none;
+      font-size: .94rem;
+    }
+    header.hero {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 24px;
+      padding: clamp(1.15rem, 3vw, 2rem);
+      box-shadow: 0 18px 44px var(--shadow);
+      margin: 1.1rem 0 1rem;
+    }
+    .kicker { color: var(--muted); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: .82rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1.08; margin: .18em 0 .35em; }
+    h2 { font-size: clamp(1.28rem, 3vw, 1.75rem); line-height: 1.25; margin-top: 0; }
+    p { margin: .5rem 0; }
+    .lead { color: var(--muted); font-size: clamp(1.04rem, 2.3vw, 1.22rem); max-width: 72ch; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: .9rem; margin: 1rem 0; }
+    .card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 18px;
+      padding: 1rem;
+      min-height: 100%;
+    }
+    .card ul { padding-left: 1.25rem; margin: .45rem 0 0; }
+    .card li { margin: .34rem 0; }
+    .route-list { display: grid; gap: .75rem; margin: .7rem 0 0; }
+    .route {
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: .9rem 1rem;
+      background: var(--soft);
+      text-decoration: none;
+    }
+    .route strong { display: block; margin-bottom: .15rem; }
+    .route span { color: var(--muted); }
+    .note { color: var(--muted); font-size: .96rem; }
+    footer { border-top: 1px solid var(--line); margin-top: 2rem; padding-top: 1rem; color: var(--muted); }
+    [id] { scroll-margin-top: 5rem; }
+  </style>
+</head>
 <body>
-<nav><a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a> <a href="https://lumina-30.github.io/lumina-30-overview/index.html">Main Floor</a> <a href="index-ja.html">日本語</a> <a href="https://github.com/lumina-30/lumina30-public-reference">GitHub Repository</a></nav>
-<h1>LUMINA-30 Public Reference</h1>
-<p class="note">This repository provides compact public reference and observability materials. It does not claim certification, approval, adoption, endorsement, compliance status, or legal authority.</p>
-<h2>Observability HTML routes</h2>
-<ul>
-<li><a href="observability/External_Visibility_Tracking.html">External Visibility Tracking</a></li>
-<li><a href="observability/LUMINA30_Visibility_Snapshot_Template.html">LUMINA-30 Visibility Snapshot Template</a></li>
-</ul>
-<h2>Source role</h2>
-<p>Markdown files are retained for source preservation, search discoverability, existing links, and source review. Reader-facing navigation should prefer the HTML routes above.</p>
-</body></html>
+<div class="topbar"><div class="topbar-inner">
+    <a href="https://lumina-30.github.io/lumina-30-overview/index.html#top">Overview</a>
+    <a href="https://lumina-30.github.io/Lumi30-Index/index.html#top">Index</a>
+    <a href="https://lumina-30.github.io/lumina30-incident-review/index.html#top">Incident Review</a>
+    <a href="https://lumina-30.github.io/lumina30-public-reference/index.html">Public Reference</a>
+    <a href="index-ja.html">Japanese</a>
+    <a href="https://github.com/lumina-30/lumina30-public-reference">GitHub Source</a>
+</div></div>
+<main id="top">
+  <header class="hero">
+    <div class="kicker">Compact public reference</div>
+    <h1>LUMINA-30 Public Reference</h1>
+    <p class="lead">Compact public-facing route into LUMINA-30 for external readers, citation users, and observability checks. It does not claim certification, adoption, endorsement, or legal authority.</p>
+  </header>
 
+  <div class="grid">
+    <section class="card"><h2>Use this repository when</h2><ul><li>You need a compact public reference route.</li><li>You need citation-support or external visibility materials.</li><li>You need a short route before opening larger repositories.</li></ul></section><section class="card"><h2>Do not use it as</h2><ul><li>An adoption or endorsement claim.</li><li>A certification or compliance record.</li><li>A substitute for the Overview, Index, or Incident Review workflow.</li></ul></section>
+  </div>
+
+  <section class="card" id="routes">
+    <h2>Next routes</h2>
+    <div class="route-list">
+      <a class="route" href="observability/External_Visibility_Tracking.html"><strong>External visibility tracking</strong><span>Public observability record route.</span></a>
+<a class="route" href="observability/LUMINA30_Visibility_Snapshot_Template.html"><strong>Visibility snapshot template</strong><span>Template for external visibility checks.</span></a>
+<a class="route" href="https://github.com/lumina-30/lumina30-public-reference/blob/main/README.md"><strong>Read the source README</strong><span>Source text and public-reference scope.</span></a>
+    </div>
+  </section>
+
+  <section class="card" id="source-role">
+    <h2>Source text role</h2>
+    <p>Markdown and text files are retained for source preservation, search discoverability, existing links, source review, and version comparison. Use this HTML entry for reader-facing orientation, navigation, and return paths.</p>
+  </section>
+
+  <footer>
+    <p>LUMINA-30 boundary reference network. Non-binding; non-certifying; non-directive.</p>
+  </footer>
+</main>
+</body>
+</html>

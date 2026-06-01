@@ -1,12 +1,12 @@
-> **Public Reference HTML ｜ 公開参照HTML**  
-> For reader-facing navigation, use the HTML version:  
-> [Open Public Reference HTML](https://lumina-30.github.io/lumina30-public-reference/)  
+> **Use the HTML entry for reading ｜ 閲覧にはHTML入口を使用してください**  
+> For reader-facing navigation, language separation, return paths, and long-form browsing, use the HTML entry rather than staying on this README.md:  
+> [Open English HTML](https://lumina-30.github.io/lumina30-public-reference/index.html)  
 >
-> 読者向けの移動にはHTML版を使用してください：  
-> [公開参照HTML版を開く](https://lumina-30.github.io/lumina30-public-reference/)  
+> 日本語で読む場合も、このREADME.mdに留まらず、日本語HTML入口を使用してください：  
+> [日本語HTMLを開く](https://lumina-30.github.io/lumina30-public-reference/index-ja.html)  
 >
-> Markdown is retained for source text preservation, search discoverability, existing links, and source review.  
-> Markdownは、本文保管、検索到達性、既存リンク維持、ソース確認のために残しています。
+> This README.md is retained for source text preservation, search discoverability, existing links, source review, and version comparison.  
+> 本README.mdは、本文保管、検索到達性、既存リンク維持、ソース確認、差分確認のために残しています。
 
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 ## Position within LUMINA-30
