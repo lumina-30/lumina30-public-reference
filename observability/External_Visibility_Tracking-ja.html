@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JA_CANONICAL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>外部可視性トラッキング</title>
+<style>
+:root { color-scheme: light dark; --fg: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --bg: Canvas; --soft: color-mix(in srgb, Canvas 88%, CanvasText 12%); }
+body { margin:0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.65; color:var(--fg); background:var(--bg); }
+main { max-width: 980px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+nav { padding: .75rem 1rem; border-bottom:1px solid var(--line); background:var(--soft); position: sticky; top:0; z-index:1; }
+nav a { margin-right:.75rem; white-space:nowrap; }
+h1,h2,h3 { line-height:1.25; }
+table { border-collapse: collapse; width:100%; display:block; overflow-x:auto; }
+th,td { border:1px solid var(--line); padding:.45rem .6rem; vertical-align:top; }
+blockquote { border-left:4px solid var(--line); margin-left:0; padding-left:1rem; color:var(--muted); }
+pre { background:var(--soft); border:1px solid var(--line); padding:1rem; overflow-x:auto; }
+code { background:var(--soft); padding:.1rem .25rem; border-radius:.25rem; }
+.note { color:var(--muted); font-size:.95rem; }
+.source-note { border:1px solid var(--line); background:var(--soft); padding:1rem; border-radius:.75rem; margin:1rem 0 2rem; }
+</style>
+</head>
+<body>
+<nav><a href="https://lumina-30.github.io/lumina30-public-reference/index-ja.html">日本語 Public Reference</a> | <a href="External_Visibility_Tracking.html">英語版</a> | <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30 日本語索引</a> | <a href="LUMINA30_Visibility_Snapshot_Template-ja.html">可視性スナップショット</a> | <a href="https://github.com/lumina-30/lumina30-public-reference/blob/main/observability/External_Visibility_Tracking.md">GitHubソース</a></nav>
+<main>
+<div class="source-note"><strong>公開参照用の外部可視性記録文書</strong><br>このHTMLページは、読者向け閲覧と安定したHTML導線のために用意されています。対応するMarkdownは、本文保管、検索到達性、既存リンク維持、ソース確認のために残しています。</div>
+<h1 id="external-visibility-tracking">外部可視性トラッキング</h1>
+<p>本書は、LUMINA-30、PCR-C、関連DOI記録、Zenodo記録、arXiv項目、GitHubリポジトリについて、外部からの可視性をどのように記録・監視するかを定義します。</p>
+<p>これは外部採用を主張するものではありません。外部可視性が存在するかを判断するために、どの証拠を集めるべきかだけを定義します。</p>
+<h2 id="purpose">1. 目的</h2>
+<p>LUMINA-30には、外部から観測可能な参照経路が必要です。この記録層は、「見られたかもしれない」「たぶん可視化されている」「DOIが存在する」「GitHubリポジトリが公開されている」といった印象だけに依存しないためのものです。可視性は、記録された証拠によって評価します。</p>
+<h2 id="observation-categories">2. 観測カテゴリ</h2>
+<ul><li>GitHubトラフィック</li><li>Zenodoの閲覧数・ダウンロード数</li><li>DOI / DataCite の利用・リンクイベント</li><li>arXiv上の存在および外部参照</li><li>検索・引用・流入元の証拠</li></ul>
+<h2 id="github-traffic">3. GitHubトラフィック</h2>
+<p>利用可能な範囲で、リポジトリ名、閲覧数、ユニーク訪問者、clone数、ユニークcloner、よく見られたパス、流入元、観測日を記録します。GitHubのトラフィックデータは保存期間が限られるため、定期的にスナップショットを取得します。</p>
+<h2 id="zenodo-visibility">4. Zenodo可視性</h2>
+<p>関連する各Zenodo記録とDOIについて、記録タイトル、Concept DOI、Version DOI、閲覧数、ユニーク閲覧数、ダウンロード数、ユニークダウンロード数、データ量、観測日を記録します。Concept DOIとVersion DOIが両方ある場合は、両方を記録します。</p>
+<h2 id="doi-datacite-evidence">5. DOI・DataCite証拠</h2>
+<p>利用可能な場合、DataCiteを通じてDOI、メタデータ状態、利用イベント、引用・参照イベント、関連識別子、観測日を記録します。DataCiteイベントがないことは、外部可視性が全くないことを意味しません。「DataCiteイベント未観測」としてのみ記録します。</p>
+<h2 id="arxiv-evidence">6. arXiv証拠</h2>
+<p>arXivは論文単位のダウンロード統計を提供しないため、arXiv ID、URL解決、DOIまたはジャーナル参照の有無、外部言及、検索可視性、引用証拠、観測日などの代理証拠を記録します。</p>
+<h2 id="external-search-evidence">7. 外部検索証拠</h2>
+<p>「LUMINA-30」「LUMINA-30 Boundary Check」「Pre-Critical Recursive Cutoff」「PCR-C irreversibility risk」、正確なDOI文字列、利用可能な場合は正確なarXiv IDなど、保守的な検索証拠を記録します。</p>
+<h2 id="interpretation-rules">8. 解釈ルール</h2>
+<table><thead><tr><th>証拠</th><th>解釈</th></tr></thead><tbody><tr><td>GitHub閲覧・clone</td><td>可視性または技術的アクセスであり、採用ではない</td></tr><tr><td>Zenodo閲覧</td><td>記録単位の関心であり、支持ではない</td></tr><tr><td>Zenodoダウンロード</td><td>閲覧より強いが、採用ではない</td></tr><tr><td>DOIイベント</td><td>追跡可能な学術的またはメタデータ上の相互作用</td></tr><tr><td>外部引用</td><td>学術的参照の強い証拠</td></tr><tr><td>外部議論</td><td>注目の証拠であり、採用ではない</td></tr><tr><td>事故レビューでの利用</td><td>実務的取り込みを示す最も強い証拠</td></tr></tbody></table>
+<h2 id="status-labels">9. 状態ラベル</h2>
+<p>保守的なラベルとして、未観測、観測可能、閲覧あり、ダウンロードあり、参照あり、引用あり、利用ありを使用します。</p>
+<h2 id="non-overclaim-rule">10. 過剰主張禁止ルール</h2>
+<p>可視性は採用ではありません。対応する証拠が記録されていない限り、LUMINA-30、PCR-C、関連文書について、採用、承認、引用、利用などを主張してはいけません。</p>
+</main>
+</body>
+</html>

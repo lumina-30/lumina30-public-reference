@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JA_TEMPLATE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LUMINA-30 可視性スナップショットテンプレート</title>
+<style>
+:root { color-scheme: light dark; --fg: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --bg: Canvas; --soft: color-mix(in srgb, Canvas 88%, CanvasText 12%); }
+body { margin:0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.65; color:var(--fg); background:var(--bg); }
+main { max-width: 980px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+nav { padding: .75rem 1rem; border-bottom:1px solid var(--line); background:var(--soft); position: sticky; top:0; z-index:1; }
+nav a { margin-right:.75rem; white-space:nowrap; }
+h1,h2,h3 { line-height:1.25; }
+table { border-collapse: collapse; width:100%; display:block; overflow-x:auto; }
+th,td { border:1px solid var(--line); padding:.45rem .6rem; vertical-align:top; }
+blockquote { border-left:4px solid var(--line); margin-left:0; padding-left:1rem; color:var(--muted); }
+pre { background:var(--soft); border:1px solid var(--line); padding:1rem; overflow-x:auto; }
+code { background:var(--soft); padding:.1rem .25rem; border-radius:.25rem; }
+.note { color:var(--muted); font-size:.95rem; }
+.source-note { border:1px solid var(--line); background:var(--soft); padding:1rem; border-radius:.75rem; margin:1rem 0 2rem; }
+</style>
+</head>
+<body>
+<nav><a href="https://lumina-30.github.io/lumina30-public-reference/index-ja.html">日本語 Public Reference</a> | <a href="LUMINA30_Visibility_Snapshot_Template.html">英語版</a> | <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30 日本語索引</a> | <a href="External_Visibility_Tracking-ja.html">外部可視性</a> | <a href="https://github.com/lumina-30/lumina30-public-reference/blob/main/observability/LUMINA30_Visibility_Snapshot_Template.md">GitHubソース</a></nav>
+<main>
+<div class="source-note"><strong>公開参照用の可視性スナップショットテンプレート</strong><br>このHTMLページは、読者向け閲覧と安定したHTML導線のために用意されています。対応するMarkdownは、本文保管、検索到達性、既存リンク維持、ソース確認のために残しています。</div>
+<h1 id="visibility-snapshot-template">LUMINA-30 可視性スナップショットテンプレート</h1>
+<p>観測日: YYYY-MM-DD<br>観測者:</p>
+<h2 id="summary">1. 要約</h2>
+<table><thead><tr><th>カテゴリ</th><th>状態</th><th>メモ</th></tr></thead><tbody><tr><td>GitHubトラフィック</td><td>未観測 / 観測可能 / 閲覧あり / cloneあり</td><td></td></tr><tr><td>Zenodo閲覧・ダウンロード</td><td>未観測 / 閲覧あり / ダウンロードあり</td><td></td></tr><tr><td>DOI / DataCiteイベント</td><td>未観測 / 観測可能 / 参照あり / 引用あり</td><td></td></tr><tr><td>arXiv代理可視性</td><td>未観測 / 観測可能 / 参照あり / 引用あり</td><td></td></tr><tr><td>外部検索証拠</td><td>未観測 / 観測可能 / 参照あり</td><td></td></tr></tbody></table>
+<h2 id="github-traffic">2. GitHubトラフィック</h2><p>関連repoについて、repo名、閲覧数、ユニーク訪問者、clone数、ユニークcloner、人気パス、流入元、メモを記録します。</p>
+<h2 id="zenodo-records">3. Zenodo記録</h2><p>各関連項目、Concept DOI、Version DOI、閲覧数、ユニーク閲覧数、ダウンロード数、ユニークダウンロード数、データ量、メモを記録します。</p>
+<h2 id="doi-datacite">4. DOI・DataCite</h2><p>DOI解決、利用イベント、引用・参照イベント、関連識別子、メモを記録します。</p>
+<h2 id="arxiv-proxy-evidence">5. arXiv代理証拠</h2><p>arXiv ID、URL解決、DOIリンク、外部言及、検索可視性、引用証拠、メモを記録します。</p>
+<h2 id="external-search-evidence">6. 外部検索証拠</h2><p>正確な検索語、結果の有無、情報源、結果種別、メモを記録します。「LUMINA-30」「LUMINA-30 Boundary Check」「Pre-Critical Recursive Cutoff」「PCR-C irreversibility risk」、正確なDOI、正確なarXiv IDなどを保守的に使用します。</p>
+<h2 id="interpretation">7. 解釈</h2><p>証拠が支える内容だけを記載します。許容される表現は、可視性あり、トラフィックあり、ダウンロードあり、DOIイベントあり、外部参照あり、引用あり、実務利用ありなどです。直接の証拠がない限り、採用、認知、受容、制度利用、研究者による引用、検証済みなどの主張は避けます。</p>
+</main>
+</body>
+</html>

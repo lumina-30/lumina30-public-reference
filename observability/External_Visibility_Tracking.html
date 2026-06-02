@@ -1,18 +1,11 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED_SOURCE_VIEW">
+<html lang="en" data-l30-lang-lock="EN_CANONICAL">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>External Visibility Tracking ｜ 外部可視性トラッキング</title>
+<title>External Visibility Tracking</title>
 <style>
-:root {
-  color-scheme: light dark;
-  --fg: CanvasText;
-  --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-  --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-  --bg: Canvas;
-  --soft: color-mix(in srgb, Canvas 88%, CanvasText 12%);
-}
+:root { color-scheme: light dark; --fg: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --bg: Canvas; --soft: color-mix(in srgb, Canvas 88%, CanvasText 12%); }
 body { margin:0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.65; color:var(--fg); background:var(--bg); }
 main { max-width: 980px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
 nav { padding: .75rem 1rem; border-bottom:1px solid var(--line); background:var(--soft); position: sticky; top:0; z-index:1; }
@@ -28,385 +21,32 @@ code { background:var(--soft); padding:.1rem .25rem; border-radius:.25rem; }
 </style>
 </head>
 <body>
-<nav><a href="https://lumina-30.github.io/lumina30-public-reference/">Public Reference EN</a> | <a href="https://lumina-30.github.io/lumina30-public-reference/index-ja.html">Public Reference JA</a> | <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a> | <a href="LUMINA30_Visibility_Snapshot_Template.html">Visibility Snapshot</a> | <a href="https://github.com/lumina-30/lumina30-public-reference/blob/main/observability/External_Visibility_Tracking.md">GitHub Source</a></nav>
+<nav><a href="https://lumina-30.github.io/lumina30-public-reference/">Public Reference EN</a> | <a href="External_Visibility_Tracking-ja.html">Japanese version</a> | <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a> | <a href="LUMINA30_Visibility_Snapshot_Template.html">Visibility Snapshot</a> | <a href="https://github.com/lumina-30/lumina30-public-reference/blob/main/observability/External_Visibility_Tracking.md">GitHub Source</a></nav>
 <main>
-<div class="source-note">
-<strong>Public reference observability document</strong><br>
-This HTML page is provided for reader navigation and stable HTML routing. The corresponding Markdown source is retained for text preservation, search discoverability, existing links, and source review.<br>
-このHTMLページは、読者向け閲覧と安定したHTML導線のために用意されています。対応するMarkdownは、本文保管、検索到達性、既存リンク維持、ソース確認のために残しています。
-</div>
-
-<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
-
-<h1 id="external-visibility-tracking--外部可視性トラッキング">External
-Visibility Tracking ｜ 外部可視性トラッキング</h1>
-<p>This document defines how external visibility of LUMINA-30, PCR-C,
-related DOI records, Zenodo records, arXiv entries, and GitHub
-repositories should be monitored.</p>
-<p>It does not claim external adoption.<br />
-It only defines what evidence should be collected to determine whether
-external visibility exists.</p>
-<hr />
-<h2 id="1-purpose--目的">1. Purpose ｜ 目的</h2>
-<p>LUMINA-30 requires observable external reference paths.</p>
-<p>The purpose of this tracking layer is to avoid relying on impressions
-such as:</p>
-<ul>
-<li>“it may have been seen”;</li>
-<li>“it is probably visible”;</li>
-<li>“the DOI exists”;</li>
-<li>“the GitHub repository is public.”</li>
-</ul>
-<p>Instead, visibility should be evaluated using recorded evidence.</p>
-<hr />
-<h2 id="2-observation-categories--観測カテゴリ">2. Observation
-Categories ｜ 観測カテゴリ</h2>
-<p>External visibility should be tracked in five categories:</p>
-<ol type="1">
-<li>GitHub traffic;</li>
-<li>Zenodo views and downloads;</li>
-<li>DOI / DataCite usage and linking events;</li>
-<li>arXiv presence and external references;</li>
-<li>search, citation, and referral evidence.</li>
-</ol>
-<p>Each category should be recorded separately.</p>
-<hr />
-<h2 id="3-github-traffic--githubトラフィック">3. GitHub Traffic ｜
-GitHubトラフィック</h2>
-<p>GitHub repository visibility should be tracked using repository
-traffic data where available.</p>
-<p>Minimum fields:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Repository</td>
-<td>Repository name</td>
-</tr>
-<tr class="even">
-<td>Views</td>
-<td>Repository views within the available traffic window</td>
-</tr>
-<tr class="odd">
-<td>Unique visitors</td>
-<td>Distinct visitors where available</td>
-</tr>
-<tr class="even">
-<td>Clones</td>
-<td>Repository clones</td>
-</tr>
-<tr class="odd">
-<td>Unique cloners</td>
-<td>Distinct cloners</td>
-</tr>
-<tr class="even">
-<td>Popular paths</td>
-<td>Pages or files receiving traffic</td>
-</tr>
-<tr class="odd">
-<td>Referrers</td>
-<td>External domains sending traffic</td>
-</tr>
-<tr class="even">
-<td>Observation date</td>
-<td>Date when the data was recorded</td>
-</tr>
-</tbody>
-</table>
-<p>GitHub traffic data is time-limited.<br />
-Therefore, snapshots should be taken periodically.</p>
-<hr />
-<h2 id="4-zenodo-visibility--zenodo可視性">4. Zenodo Visibility ｜
-Zenodo可視性</h2>
-<p>Zenodo visibility should be tracked for each relevant record and
-DOI.</p>
-<p>Minimum fields:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Record title</td>
-<td>Zenodo record title</td>
-</tr>
-<tr class="even">
-<td>Concept DOI</td>
-<td>DOI representing all versions</td>
-</tr>
-<tr class="odd">
-<td>Version DOI</td>
-<td>DOI for the specific version</td>
-</tr>
-<tr class="even">
-<td>Views</td>
-<td>Record views</td>
-</tr>
-<tr class="odd">
-<td>Unique views</td>
-<td>Unique record views where displayed</td>
-</tr>
-<tr class="even">
-<td>Downloads</td>
-<td>File downloads</td>
-</tr>
-<tr class="odd">
-<td>Unique downloads</td>
-<td>Unique file downloads where displayed</td>
-</tr>
-<tr class="even">
-<td>Data volume</td>
-<td>Downloaded data volume where displayed</td>
-</tr>
-<tr class="odd">
-<td>Observation date</td>
-<td>Date when the data was recorded</td>
-</tr>
-</tbody>
-</table>
-<p>When both Concept DOI and Version DOI exist, both should be
-recorded.</p>
-<hr />
-<h2 id="5-doi-and-datacite-evidence--doidatacite証拠">5. DOI and
-DataCite Evidence ｜ DOI・DataCite証拠</h2>
-<p>DOI visibility should be tracked through DataCite where
-available.</p>
-<p>Minimum fields:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DOI</td>
-<td>DOI being checked</td>
-</tr>
-<tr class="even">
-<td>Metadata status</td>
-<td>Whether the DOI resolves correctly</td>
-</tr>
-<tr class="odd">
-<td>Usage events</td>
-<td>Usage events reported through DataCite</td>
-</tr>
-<tr class="even">
-<td>Citation/reference events</td>
-<td>Linking events involving the DOI</td>
-</tr>
-<tr class="odd">
-<td>Related identifiers</td>
-<td>Related DOI / URL relationships</td>
-</tr>
-<tr class="even">
-<td>Observation date</td>
-<td>Date when the data was recorded</td>
-</tr>
-</tbody>
-</table>
-<p>Absence of DataCite events should not be treated as absence of all
-external visibility.<br />
-It should only be recorded as “no DataCite event observed.”</p>
-<hr />
-<h2 id="6-arxiv-evidence--arxiv証拠">6. arXiv Evidence ｜ arXiv証拠</h2>
-<p>arXiv does not provide paper-level download statistics.</p>
-<p>Therefore, arXiv visibility should be tracked using proxy
-evidence:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>arXiv ID</td>
-<td>arXiv identifier</td>
-</tr>
-<tr class="even">
-<td>arXiv URL resolves</td>
-<td>Whether the abstract page resolves</td>
-</tr>
-<tr class="odd">
-<td>DOI linked</td>
-<td>Whether DOI / journal reference is present where applicable</td>
-</tr>
-<tr class="even">
-<td>External mentions</td>
-<td>Mentions of the arXiv ID outside arXiv</td>
-</tr>
-<tr class="odd">
-<td>Search visibility</td>
-<td>Whether the title / arXiv ID appears in search results</td>
-</tr>
-<tr class="even">
-<td>Citation evidence</td>
-<td>Citations detected through external indexes</td>
-</tr>
-<tr class="odd">
-<td>Observation date</td>
-<td>Date when the data was recorded</td>
-</tr>
-</tbody>
-</table>
-<p>Do not claim arXiv download counts unless arXiv itself provides such
-data.</p>
-<hr />
-<h2 id="7-external-search-evidence--外部検索証拠">7. External Search
-Evidence ｜ 外部検索証拠</h2>
-<p>Search evidence should be recorded conservatively.</p>
-<p>Minimum queries:</p>
-<ul>
-<li>"LUMINA-30"</li>
-<li>"LUMINA-30 Boundary Check"</li>
-<li>"Pre-Critical Recursive Cutoff"</li>
-<li>"PCR-C irreversibility risk"</li>
-<li>"effective human refusal before irreversibility"</li>
-<li>exact DOI strings</li>
-<li>exact arXiv IDs, if available</li>
-</ul>
-<p>Record only observable evidence:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Query</td>
-<td>Exact query used</td>
-</tr>
-<tr class="even">
-<td>Result found</td>
-<td>Yes / No</td>
-</tr>
-<tr class="odd">
-<td>Result type</td>
-<td>GitHub / Zenodo / arXiv / citation / discussion / other</td>
-</tr>
-<tr class="even">
-<td>Source</td>
-<td>Domain or platform</td>
-</tr>
-<tr class="odd">
-<td>Date observed</td>
-<td>Observation date</td>
-</tr>
-<tr class="even">
-<td>Notes</td>
-<td>Minimal factual note</td>
-</tr>
-</tbody>
-</table>
-<p>Do not infer adoption from search presence alone.</p>
-<hr />
-<h2 id="8-interpretation-rules--解釈ルール">8. Interpretation Rules ｜
-解釈ルール</h2>
-<p>Use the following interpretation rules:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Evidence</th>
-<th>Interpretation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>GitHub views / clones</td>
-<td>Visibility or technical access, not adoption</td>
-</tr>
-<tr class="even">
-<td>Zenodo views</td>
-<td>Record-level interest, not endorsement</td>
-</tr>
-<tr class="odd">
-<td>Zenodo downloads</td>
-<td>Stronger than views, but not adoption</td>
-</tr>
-<tr class="even">
-<td>DOI events</td>
-<td>Traceable scholarly or metadata interaction</td>
-</tr>
-<tr class="odd">
-<td>External citation</td>
-<td>Strong evidence of scholarly reference</td>
-</tr>
-<tr class="even">
-<td>External discussion</td>
-<td>Evidence of attention, not adoption</td>
-</tr>
-<tr class="odd">
-<td>Incident-review usage</td>
-<td>Strongest evidence of practical uptake</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="9-status-labels--状態ラベル">9. Status Labels ｜ 状態ラベル</h2>
-<p>Use these labels:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Label</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Not observed</td>
-<td>No evidence checked or no result found</td>
-</tr>
-<tr class="even">
-<td>Observable</td>
-<td>Metrics or search evidence exists</td>
-</tr>
-<tr class="odd">
-<td>Visited</td>
-<td>Views or traffic observed</td>
-</tr>
-<tr class="even">
-<td>Downloaded</td>
-<td>Zenodo or file download observed</td>
-</tr>
-<tr class="odd">
-<td>Referenced</td>
-<td>External page, paper, or record links to it</td>
-</tr>
-<tr class="even">
-<td>Cited</td>
-<td>Scholarly citation or DOI citation event observed</td>
-</tr>
-<tr class="odd">
-<td>Used</td>
-<td>Evidence of practical use in review, audit, governance, or incident
-analysis</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="10-non-overclaim-rule--過剰主張禁止ルール">10. Non-Overclaim
-Rule ｜ 過剰主張禁止ルール</h2>
-<p>Visibility is not adoption.</p>
-<p>Do not describe LUMINA-30, PCR-C, or related documents as adopted,
-recognized, cited, or used unless the corresponding evidence is
-recorded.</p>
-<p>If evidence is limited to views, downloads, or traffic, describe it
-only as visibility or access.</p>
-
+<div class="source-note"><strong>Public reference observability document</strong><br>This HTML page is provided for reader navigation and stable HTML routing. The corresponding Markdown source is retained for text preservation, search discoverability, existing links, and source review.</div>
+<h1 id="external-visibility-tracking">External Visibility Tracking</h1>
+<p>This document defines how external visibility of LUMINA-30, PCR-C, related DOI records, Zenodo records, arXiv entries, and GitHub repositories should be monitored.</p>
+<p>It does not claim external adoption. It only defines what evidence should be collected to determine whether external visibility exists.</p>
+<h2 id="purpose">1. Purpose</h2>
+<p>LUMINA-30 requires observable external reference paths. This tracking layer avoids relying on impressions such as “it may have been seen,” “it is probably visible,” “the DOI exists,” or “the GitHub repository is public.” Visibility should be evaluated using recorded evidence.</p>
+<h2 id="observation-categories">2. Observation Categories</h2>
+<ul><li>GitHub traffic</li><li>Zenodo views and downloads</li><li>DOI / DataCite usage and linking events</li><li>arXiv presence and external references</li><li>search, citation, and referral evidence</li></ul>
+<h2 id="github-traffic">3. GitHub Traffic</h2>
+<p>Track repository visibility using traffic data where available: repository, views, unique visitors, clones, unique cloners, popular paths, referrers, and observation date. GitHub traffic data is time-limited, so snapshots should be taken periodically.</p>
+<h2 id="zenodo-visibility">4. Zenodo Visibility</h2>
+<p>Track each relevant Zenodo record and DOI: record title, Concept DOI, Version DOI, views, unique views, downloads, unique downloads, data volume, and observation date. When both Concept DOI and Version DOI exist, record both.</p>
+<h2 id="doi-datacite-evidence">5. DOI and DataCite Evidence</h2>
+<p>Track DOI visibility through DataCite where available: DOI, metadata status, usage events, citation/reference events, related identifiers, and observation date. Absence of DataCite events should be recorded only as “no DataCite event observed.”</p>
+<h2 id="arxiv-evidence">6. arXiv Evidence</h2>
+<p>Because arXiv does not provide paper-level download statistics, track proxy evidence such as arXiv ID, URL resolution, DOI or journal reference presence, external mentions, search visibility, citation evidence, and observation date.</p>
+<h2 id="external-search-evidence">7. External Search Evidence</h2>
+<p>Record conservative search evidence using exact queries such as “LUMINA-30,” “LUMINA-30 Boundary Check,” “Pre-Critical Recursive Cutoff,” “PCR-C irreversibility risk,” exact DOI strings, and exact arXiv IDs where available.</p>
+<h2 id="interpretation-rules">8. Interpretation Rules</h2>
+<table><thead><tr><th>Evidence</th><th>Interpretation</th></tr></thead><tbody><tr><td>GitHub views / clones</td><td>Visibility or technical access, not adoption</td></tr><tr><td>Zenodo views</td><td>Record-level interest, not endorsement</td></tr><tr><td>Zenodo downloads</td><td>Stronger than views, but not adoption</td></tr><tr><td>DOI events</td><td>Traceable scholarly or metadata interaction</td></tr><tr><td>External citation</td><td>Strong evidence of scholarly reference</td></tr><tr><td>External discussion</td><td>Evidence of attention, not adoption</td></tr><tr><td>Incident-review usage</td><td>Strongest evidence of practical uptake</td></tr></tbody></table>
+<h2 id="status-labels">9. Status Labels</h2>
+<p>Use conservative labels: Not observed, Observable, Visited, Downloaded, Referenced, Cited, and Used.</p>
+<h2 id="non-overclaim-rule">10. Non-Overclaim Rule</h2>
+<p>Visibility is not adoption. Do not describe LUMINA-30, PCR-C, or related documents as adopted, recognized, cited, or used unless the corresponding evidence is recorded.</p>
 </main>
 </body>
 </html>
-
