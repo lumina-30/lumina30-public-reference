@@ -184,11 +184,11 @@ LUMINA-30 distinguishes public availability from observed external visibility.
 
 Use the following documents to record whether GitHub, Zenodo, DOI / DataCite, arXiv proxy evidence, and external references are actually observable.
 
-- [External Visibility Tracking](https://lumina-30.github.io/lumina30-public-reference/observability/External_Visibility_Tracking.html)  
+- [External Visibility Tracking](observability/External_Visibility_Tracking.md)  
   Defines what evidence may be used to assess external visibility without overclaiming adoption.  
   採用を過剰主張せず、外部可視性を確認するための証拠基準を定義する。
 
-- [Visibility Snapshot Template](https://lumina-30.github.io/lumina30-public-reference/observability/LUMINA30_Visibility_Snapshot_Template.html)  
+- [Visibility Snapshot Template](observability/LUMINA30_Visibility_Snapshot_Template.md)  
   Template for periodic visibility snapshots across GitHub, Zenodo, DOI / DataCite, arXiv proxy evidence, and external search results.  
   GitHub、Zenodo、DOI / DataCite、arXiv代理証拠、外部検索結果の定期観測テンプレート。
 
