@@ -29,20 +29,20 @@ Use one of these routes depending on the context.
 
 | Context | Preferred route |
 |---|---|
-| Compact public reference | https://github.com/lumina-30/lumina30-public-reference |
-| Conceptual overview | https://github.com/lumina-30/lumina-30-overview |
-| Incident review or boundary check | https://github.com/lumina-30/lumina30-incident-review |
-| Full repository network | https://github.com/lumina-30/Lumi30-Index |
+| Compact public reference | https://lumina-30.github.io/lumina30-public-reference/index.html |
+| First visit | https://lumina-30.github.io/Lumi30-Index/start-by-concern.html |
+| Incident review or boundary check | https://lumina-30.github.io/lumina30-incident-review/index.html |
+| Full document map or return visit | https://lumina-30.github.io/Lumi30-Index/index.html |
 | Research-layer DOI | https://doi.org/10.5281/zenodo.18824181 |
 
 文脈に応じて以下の導線を使用する。
 
 | 文脈 | 推奨導線 |
 |---|---|
-| 短い公開参照 | https://github.com/lumina-30/lumina30-public-reference |
-| 概念概要 | https://github.com/lumina-30/lumina-30-overview |
-| 事故レビュー・境界判定 | https://github.com/lumina-30/lumina30-incident-review |
-| repo群全体 | https://github.com/lumina-30/Lumi30-Index |
+| 短い公開参照 | https://lumina-30.github.io/lumina30-public-reference/index-ja.html |
+| 初めて読む | https://lumina-30.github.io/Lumi30-Index/start-by-concern-ja.html |
+| 事故レビュー・境界判定 | https://lumina-30.github.io/lumina30-incident-review/index-ja.html |
+| 全体の文書地図・再訪 | https://lumina-30.github.io/Lumi30-Index/index-ja.html |
 | 研究レイヤーDOI | https://doi.org/10.5281/zenodo.18824181 |
 
 ---

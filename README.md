@@ -17,12 +17,12 @@ Primary users ｜ 主な対象者: public readers, citation users, external revi
 Use this repository when you need a compact public-facing route into LUMINA-30.  
 LUMINA-30への公開向け簡易導線が必要な場合に使用。
 
-For detailed conceptual understanding, use the Overview. For operational review, use incident-review.  
-概念理解には Overview、実務レビューには incident-review を使用。
+For a first visit, use [Start by Concern](https://lumina-30.github.io/Lumi30-Index/start-by-concern.html). For detailed background, use the [Overview](https://lumina-30.github.io/lumina-30-overview/index.html). For incident review, use [Incident Review](https://lumina-30.github.io/lumina30-incident-review/index.html).  
+初めて読む場合は[関心から入る](https://lumina-30.github.io/Lumi30-Index/start-by-concern-ja.html)を使用してください。詳しい背景は、[Overview](https://lumina-30.github.io/lumina-30-overview/index-ja.html)を参照してください。事故レビューには[Incident Review](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)を使用してください。
 
-- [Conceptual Overview ｜ 概念概要](https://github.com/lumina-30/lumina-30-overview)  
-  Use this for visual and conceptual understanding.  
-  視覚的・概念的理解に使用。
+- [Start by Concern ｜ 関心から入る](https://lumina-30.github.io/Lumi30-Index/start-by-concern.html) ｜ [日本語](https://lumina-30.github.io/Lumi30-Index/start-by-concern-ja.html)  
+  Use this for a first visit.  
+  初めて読む場合に使用。
 
 - [Reversible Prosperity Path ｜ 可逆的繁栄の道](https://lumina-30.github.io/lumina-30-overview/docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html) / [JP](https://lumina-30.github.io/lumina-30-overview/docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html)  
   Use this for the positive route: progress that remains stoppable, reviewable, and reversible before irreversibility.  
@@ -144,15 +144,15 @@ It is a fixed public reference intended to remain readable and citable without i
 
 Use this repository when readers need a compact external path into the LUMINA-30 network.
 
-- [Canonical Index ｜ 正典索引](https://github.com/lumina-30/Lumi30-Index)  
-  Start here for the full repository network.  
-  repo群全体を確認する入口。
+- [LUMINA-30 Index ｜ 索引](https://lumina-30.github.io/Lumi30-Index/index.html) ｜ [日本語](https://lumina-30.github.io/Lumi30-Index/index-ja.html)  
+  Use this for the full document map and return visits.  
+  文書全体を探す場合や再訪時に使用。
 
-- [Conceptual Overview ｜ 概念概要](https://github.com/lumina-30/lumina-30-overview)  
-  Start here for the conceptual overview and visual navigation.  
-  概念概要と視覚導線を確認する入口。
+- [Start by Concern ｜ 関心から入る](https://lumina-30.github.io/Lumi30-Index/start-by-concern.html) ｜ [日本語](https://lumina-30.github.io/Lumi30-Index/start-by-concern-ja.html)  
+  Use this for a first visit.  
+  初めて読む場合に使用。
 
-- [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)  
+- [Incident Review Hub ｜ 事故レビュー入口](https://lumina-30.github.io/lumina30-incident-review/index.html) ｜ [日本語](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
   Use this for incident review and boundary checks.  
   事故レビューと境界判定に使用。
 
