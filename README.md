@@ -193,7 +193,7 @@ Use the following documents to record whether GitHub, Zenodo, DOI / DataCite, ar
   GitHub、Zenodo、DOI / DataCite、arXiv代理証拠、外部検索結果の定期観測テンプレート。
 
 - [Visibility Collection Script](./tools/collect_lumina30_visibility.ps1)  
-  Local PowerShell helper for collecting GitHub traffic and DataCite DOI-event signals where available.  
+  Optional local maintenance helper for recording repository-level GitHub traffic and DataCite DOI-event signals where available; it does not track individual readers.  
   GitHub traffic と DataCite DOI-event signals を取得するためのローカルPowerShell補助スクリプト。
 
 ---
@@ -205,3 +205,4 @@ It should remain compact, stable, and link-oriented.
 
 Its role is not to restate the whole framework,
 but to ensure that external readers can reliably reach the correct layer.
+

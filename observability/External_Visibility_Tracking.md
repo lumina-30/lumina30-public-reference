@@ -189,3 +189,4 @@ Visibility is not adoption.
 Do not describe LUMINA-30, PCR-C, or related documents as adopted, recognized, cited, or used unless the corresponding evidence is recorded.
 
 If evidence is limited to views, downloads, or traffic, describe it only as visibility or access.
+

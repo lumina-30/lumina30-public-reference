@@ -4,6 +4,10 @@
 Observation date: YYYY-MM-DD  
 Observer:  
 
+This template records visibility signals only. It does not track individual readers and does not prove adoption, endorsement, recognition, or institutional use.
+
+このテンプレートは可視性シグナルのみを記録します。個人読者を追跡せず、採用、承認、認知、制度利用を証明するものではありません。
+
 ---
 
 ## 1. Summary ｜ 要約
@@ -91,3 +95,4 @@ Avoid unless directly evidenced:
 - used by institutions;
 - cited by researchers;
 - validated.
+

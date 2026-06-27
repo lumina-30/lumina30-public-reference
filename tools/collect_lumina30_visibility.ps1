@@ -1,7 +1,8 @@
 # collect_lumina30_visibility.ps1
-# Collects external visibility evidence for LUMINA-30.
-# This script does not prove adoption.
-# It only records observable traffic / usage / DOI / search-related evidence.
+# Optional local maintenance helper for LUMINA-30 visibility evidence.
+# This script does not prove adoption, endorsement, recognition, or institutional use.
+# It does not track individual readers and does not provide page analytics.
+# It only records repository-level GitHub traffic, DOI usage/event signals, and search-related evidence where available.
 
 param(
     [string]$Owner = "lumina-30",
@@ -71,7 +72,7 @@ $Lines += "# LUMINA-30 Visibility Snapshot"
 $Lines += ""
 $Lines += "Observation date: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss zzz')"
 $Lines += ""
-$Lines += "This snapshot records visibility signals only. It does not prove adoption."
+$Lines += "This snapshot records visibility signals only. It does not track individual readers and does not prove adoption, endorsement, recognition, or institutional use."
 $Lines += ""
 
 $Lines += "## GitHub Traffic"
@@ -149,3 +150,4 @@ $Lines += ""
 $Lines | Set-Content -Path $ReportPath -Encoding UTF8
 
 Write-Output "Visibility snapshot written to: $ReportPath"
+
