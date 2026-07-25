@@ -53,6 +53,16 @@ PCR-Cは、不可逆化リスクが構造的に中断困難になる前の段階
 
 ---
 
+## Scope and Partial-Use Guidance ｜ 公開範囲・部分利用ガイダンス
+
+**EN**
+Use [Public Scope, Terminology, and Partial-Use Guidance](https://lumina-30.github.io/lumina30-public-reference/public-scope.html) when distinguishing the hash-fixed public record, other LUMINA-30 public resources, PCR-C research-layer constructs, published examples, partial use, and independent extensions.
+
+**JP**
+ハッシュ固定公開記録、その他のLUMINA-30公開資料、PCR-C研究レイヤー、公開説明用事例、部分利用、独自拡張を区別する場合は、[公開範囲・用語・部分利用ガイダンス](https://lumina-30.github.io/lumina30-public-reference/public-scope-ja.html)を使用する。
+
+---
+
 ## Suggested Bibliographic Entries ｜ 参考文献欄用
 
 ### LUMINA-30 public reference

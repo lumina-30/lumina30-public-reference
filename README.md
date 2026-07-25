@@ -144,6 +144,10 @@ It is a fixed public reference intended to remain readable and citable without i
 
 Use this repository when readers need a compact external path into the LUMINA-30 network.
 
+- [Public Scope, Terminology, and Partial-Use Guidance](https://lumina-30.github.io/lumina30-public-reference/public-scope.html) ｜ [日本語](https://lumina-30.github.io/lumina30-public-reference/public-scope-ja.html)  
+  Use this to distinguish fixed records, operational and public-reference resources, PCR-C research-layer constructs, published examples, partial use, and independent extensions.  
+  固定記録、実務・公開参照資料、PCR-C研究レイヤー、公開説明用事例、部分利用、独自拡張を区別する場合に使用。
+
 - [LUMINA-30 Index ｜ 索引](https://lumina-30.github.io/Lumi30-Index/index.html) ｜ [日本語](https://lumina-30.github.io/Lumi30-Index/index-ja.html)  
   Use this for the full document map and return visits.  
   文書全体を探す場合や再訪時に使用。
@@ -205,4 +209,3 @@ It should remain compact, stable, and link-oriented.
 
 Its role is not to restate the whole framework,
 but to ensure that external readers can reliably reach the correct layer.
-

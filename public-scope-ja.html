@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="固定公開記録、LUMINA-30実務資料、PCR-C研究レイヤー、公開説明用事例、部分利用、独自拡張を区別するためのガイダンス。" />
+  <link rel="canonical" href="https://lumina-30.github.io/lumina30-public-reference/public-scope-ja.html" />
+  <link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina30-public-reference/public-scope.html" />
+  <link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina30-public-reference/public-scope-ja.html" />
+  <title>LUMINA-30 公開範囲・用語・部分利用ガイダンス</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --text: CanvasText; --muted: color-mix(in srgb, CanvasText 67%, Canvas 33%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --panel: color-mix(in srgb, Canvas 93%, CanvasText 7%); --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); --accent: LinkText; --shadow: color-mix(in srgb, CanvasText 14%, transparent 86%); }
+    * { box-sizing: border-box; } html { scroll-behavior: smooth; }
+    body { margin: 0; background: radial-gradient(circle at top left, color-mix(in srgb, LinkText 12%, transparent 88%), transparent 32rem), var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.78; }
+    a { color: var(--accent); } main { max-width: 1100px; margin: 0 auto; padding: 1.25rem 1.1rem 4rem; }
+    .topbar { position: sticky; top: 0; z-index: 2; backdrop-filter: blur(14px); background: color-mix(in srgb, Canvas 86%, transparent 14%); border-bottom: 1px solid var(--line); }
+    .topbar-inner { max-width: 1100px; margin: 0 auto; padding: .7rem 1.1rem; display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; }
+    .topbar a { display: inline-flex; align-items: center; border: 1px solid var(--line); background: var(--soft); border-radius: 999px; padding: .44rem .68rem; text-decoration: none; font-size: .94rem; }
+    header.hero { border: 1px solid var(--line); background: var(--panel); border-radius: 24px; padding: clamp(1.15rem, 3vw, 2rem); box-shadow: 0 18px 44px var(--shadow); margin: 1.1rem 0 1rem; }
+    .kicker { color: var(--muted); font-weight: 700; letter-spacing: .06em; font-size: .82rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3.15rem); line-height: 1.16; margin: .18em 0 .35em; } h2 { font-size: clamp(1.35rem, 3vw, 1.85rem); line-height: 1.35; margin: 0 0 .65rem; } h3 { margin: 1.2rem 0 .35rem; }
+    p { margin: .55rem 0; } ul, ol { padding-left: 1.35rem; } li { margin: .35rem 0; }
+    .lead { color: var(--muted); font-size: clamp(1.04rem, 2.3vw, 1.22rem); max-width: 78ch; }
+    .card { border: 1px solid var(--line); background: var(--panel); border-radius: 18px; padding: clamp(1rem, 2.5vw, 1.35rem); margin: .9rem 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: .9rem; }
+    .note { border-left: 4px solid var(--accent); padding: .7rem 1rem; background: var(--soft); border-radius: 8px; }
+    .table-wrap { overflow-x: auto; margin: .7rem 0; } table { width: 100%; border-collapse: collapse; min-width: 720px; } th, td { border: 1px solid var(--line); padding: .72rem; text-align: left; vertical-align: top; } th { background: var(--soft); }
+    code { overflow-wrap: anywhere; } blockquote { margin: .8rem 0; padding: .7rem 1rem; border-left: 4px solid var(--accent); background: var(--soft); }
+    .route-list { display: grid; gap: .65rem; } .route { display: block; border: 1px solid var(--line); border-radius: 14px; padding: .78rem .9rem; background: var(--soft); text-decoration: none; } .route strong { display: block; } .route span { color: var(--muted); }
+    footer { border-top: 1px solid var(--line); margin-top: 2rem; padding-top: 1rem; color: var(--muted); } [id] { scroll-margin-top: 5rem; }
+  </style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-inner">
+  <a href="index-ja.html">公開参照</a>
+  <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">索引</a>
+  <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">概要</a>
+  <a href="https://lumina-30.github.io/lumina30-incident-review/index-ja.html">事故レビュー</a>
+  <a href="public-scope.html">English</a>
+  <a href="https://github.com/lumina-30/lumina30-public-reference/blob/main/PUBLIC_SCOPE_TERMINOLOGY_PARTIAL_USE.md">ソース</a>
+</div></div>
+<main id="top">
+  <header class="hero">
+    <div class="kicker">出典同一性と利用範囲</div>
+    <h1>LUMINA-30 公開範囲・用語・部分利用ガイダンス</h1>
+    <p class="lead">固定公開記録、LUMINA-30実務資料、PCR-C研究レイヤー、公開説明用事例、部分利用、独自拡張を区別するための短いガイドです。</p>
+    <p class="note"><strong>境界：</strong>本ページは、正典を修正せず、認証・適合状態を作らず、CC0再利用を制限せず、実装を規定せず、制度的権威を主張しません。</p>
+  </header>
+
+  <section class="card" id="official-scope">
+    <h2>1. ここでいう「公式公開範囲」</h2>
+    <p><strong>公式公開範囲</strong>とは、現行のLUMINA-30公開索引・公開参照導線、またはハッシュ固定されたLUMINA-30公開記録へ、出典の同一性をたどれる資料を指します。</p>
+    <p>ここでの「公式」は、<strong>出典の同一性</strong>だけを表します。所有、支持、認証、適合、採用、承認、制度的権威を意味しません。</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>レイヤー</th><th>状態と役割</th><th>例</th></tr></thead>
+      <tbody>
+        <tr><td><strong>A. ハッシュ固定公開記録</strong></td><td>固定された記録同一性を持ちます。変更版は別記録となり、固定セットを暗黙に修正しません。</td><td>基礎4文書＋SUP公開参照記録2文書。</td></tr>
+        <tr><td><strong>B. LUMINA-30実務・公開参照資料</strong></td><td>境界条件を実務化・説明する公開ツール。レイヤーAを修正しません。</td><td>Boundary Kernel、One-Question Pilot、Incident Review、Institutional Friction Toolkit、Stop Authority Reference、AI Accountability Reference。</td></tr>
+        <tr><td><strong>C. 関連研究レイヤー</strong></td><td>LUMINA-30に関連する研究モデル。ただし、LUMINA-30の正典的境界そのものとは同一ではありません。</td><td>PCR-C、インフラ層スコアリング、校正、H測定、閾値、停止訓練。</td></tr>
+        <tr><td><strong>D. 公開説明用事例</strong></td><td>適用方法を示す例示です。経験的検証、制度採用、普遍的結論の証拠ではありません。</td><td>閉ループ審査、フラッシュクラッシュ、医療AIの事例。</td></tr>
+        <tr><td><strong>E. 第三者解釈・独自拡張</strong></td><td>外部分析、実装、指標、事例、派生物。現行の公式公開導線へ正式掲載されない限り、公式公開範囲には入りません。</td><td>組織独自スコア、ダッシュボード、制御、方針、fork、AI生成の追加要素。</td></tr>
+      </tbody>
+    </table></div>
+    <h3>ハッシュ固定公開記録</h3>
+    <div class="grid">
+      <div><strong>基礎となる4文書</strong><ul><li><code>LUMINA-30_SanctuaryCharter20260110.pdf</code></li><li><code>LUMINA-30_ExternalPracticalAnnex20260110.pdf</code></li><li><code>LUMINA-30_NotesOnExecutionControl20260110.pdf</code></li><li><code>LUMINA-30_NonAcceleration20260110.pdf</code></li></ul></div>
+      <div><strong>SUP公開参照記録2文書</strong><ul><li><code>LUMINA-30_SUP_Sanctuary_Charter_JA_20260131.pdf</code></li><li><code>LUMINA-30_SUP_Sanctuary_Charter_EN_20260131.pdf</code></li></ul></div>
+    </div>
+    <p>固定されていない資料がレイヤーB・C・Dのどこに属するかは、現行の公開索引・公開参照導線で確認します。AI要約や第三者説明を、その確認の代わりにしてはいけません。</p>
+  </section>
+
+  <section class="card" id="distinctions">
+    <h2>2. 重要な区別</h2>
+    <div class="grid">
+      <div><h3>Boundary Kernel</h3><p>AIが読める形で境界を記述した参照資料です。技術的強制機構、AIが文章を無視できないことの証明、安全保証ではありません。</p></div>
+      <div><h3>One-Question Pilot</h3><p>既存のレビュー、調達、監査、導入、事故対応、ガバナンス手順へ追加できる実務入口です。この一問だけを利用しても、LUMINA-30全体を採用したことにはなりません。</p></div>
+      <div><h3>Incident Review</h3><p>拒否・停止・検証・延期・方向転換・証拠保持・責任が実効的に残っていたかを事後検証する資料です。認証サービスや監査サービスではありません。</p></div>
+      <div><h3>PCR-C研究レイヤー</h3><p>LUMINA-30に関連する構造的制御・インフラ層研究モデルです。公開済み校正ノートには、介入能力<strong>H</strong>、正規化された参照閾値<strong>YELLOW = 5／ORANGE = 7／RED = 9</strong>、<strong>停止訓練</strong>が含まれます。</p></div>
+      <div><h3>公開説明用事例</h3><p>閉ループ審査、フラッシュクラッシュ、医療AIは説明用事例です。普遍的結論、経験的検証、制度採用、法的権威を証明しません。</p></div>
+      <div><h3>更新可能な参照資料</h3><p>実務ツール、説明ページ、研究背景、事例、ナビゲーション層は更新されることがあります。それらがハッシュ固定公開記録を暗黙に修正することはありません。</p></div>
+    </div>
+    <p class="note">H、5／7／9の参照閾値、校正、停止訓練は、実在するPCR-C研究レイヤーの構成物です。公開済みPCR-Cノートは、それらがLUMINA-30の正典的境界を変更しないと明記しています。</p>
+  </section>
+
+  <section class="card" id="layer-errors">
+    <h2>3. 公開レイヤーを混同しない</h2>
+    <p>公開資料が実在していても、誤ったレイヤーとして説明されることがあります。</p>
+    <ul>
+      <li>基礎4文書とSUP記録2文書は、<strong>ハッシュ固定公開記録</strong>と表現します。</li>
+      <li>Boundary Kernel、One-Question Pilot、Incident Review等は、<strong>LUMINA-30実務ツール／公開参照資料</strong>と表現します。</li>
+      <li>PCR-C、H、正規化された5／7／9閾値、校正、停止訓練は、<strong>LUMINA-30に関連するPCR-C研究レイヤーの構成物</strong>と表現し、LUMINA-30の正典的境界そのものとは書きません。</li>
+      <li>閉ループ審査、フラッシュクラッシュ、医療AIは、<strong>公開説明用事例</strong>と表現し、普遍的な実証結果や採用実績とは書きません。</li>
+      <li>外部で追加された要素は、現行の公式公開導線で別の位置づけが確認できない限り、<strong>第三者解釈</strong>または<strong>LUMINA-30に着想を得た独自拡張</strong>と表現します。</li>
+    </ul>
+    <p>AI生成の説明、外部論文、組織独自の実装、リポジトリのfork、複製ページ、第三者の比較表によって、これらのレイヤー同一性は変わりません。位置づけを確認できない場合は、<strong>出典未確認の帰属</strong>と表示してください。</p>
+  </section>
+
+  <section class="card" id="adoption-language">
+    <h2>4. 参照・試行・採用を正確に表す言葉</h2>
+    <p>新しい採用尺度を作らず、既存の「LUMINA-30 制度的採用への道筋」のLevel 0〜4を使用します。</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>既存段階</th><th>実際に行ったこと</th><th>正確な表現</th></tr></thead>
+      <tbody>
+        <tr><td>Level 0 — 公開参照</td><td>LUMINA-30を読んだ、引用した、リンクした、議論した。</td><td>「LUMINA-30を参照している」</td></tr>
+        <tr><td>Level 1 — 内部レビュー</td><td>境界問いまたはOne-Question Pilotを、内部ガバナンス、安全評価、公開判断、調達、その他のレビュー手順へ追加した。</td><td>「LUMINA-30の境界問い／One-Question Pilotを内部レビューで利用している」</td></tr>
+        <tr><td>Level 2 — 事故・事故前レビュー</td><td>事故、ニアミス、公開前の境界レビューでLUMINA-30を利用した。</td><td>「LUMINA-30を事故・事故前レビューで利用している」</td></tr>
+        <tr><td>Level 3 — 監査・調達・契約・保険接続</td><td>実効的人間拒否の証拠を、外部レビュー可能な文書で要求した。</td><td>実際の監査、調達、契約、保険、監督上の接続先を正確に記載する。</td></tr>
+        <tr><td>Level 4 — 規制・制度への組込み</td><td>権限ある主体が、名称を持つ方針、標準、規制プロセスへ境界条件を明示的に組み込んだ。</td><td>「［文書名・版・日付］にLUMINA-30を正式に組み込んだ」</td></tr>
+      </tbody>
+    </table></div>
+    <p>One-Question Pilotの利用がLevel 1に当たるのは、境界問いを実際に内部レビュー手順へ組み込んだ場合に限ります。読む、引用する、リンクする、議論するだけならLevel 0です。いずれもLUMINA-30全体を採用した証拠にはなりません。</p>
+    <p>引用、限定的な試行、内部ライブラリ収載、リンク、fork、AI生成回答、外部比較表、関心表明、一つのツールだけの利用から、採用・支持・承認・公認・適合・認証を推定してはいけません。</p>
+    <p>状態が不明な場合は、<strong>参照した</strong>、<strong>内部レビューで利用した</strong>、<strong>限定的に試行した</strong>、<strong>レビュー補助として利用した</strong>と表現し、<strong>採用した</strong>とは書かないでください。</p>
+  </section>
+
+  <section class="card" id="partial-use">
+    <h2>5. 部分利用と独自拡張</h2>
+    <p>One-Question Pilot、Incident Reviewテンプレート、チェックリストなど、一つの資料だけを使うことは正当な部分利用です。ただし、LUMINA-30全体を実装・採用したと表現してはいけません。</p>
+    <p>組織が独自のスコア、閾値、ダッシュボード、訓練、制御ロジック、認証基準、事例、政策義務を追加する場合は、次のように明示してください。</p>
+    <blockquote>これはLUMINA-30に着想を得た独自拡張です。LUMINA-30の公式要素ではなく、LUMINA-30公開記録を修正するものでもありません。</blockquote>
+  </section>
+
+  <section class="card" id="cc0-record-identity">
+    <h2>6. CC0再利用と公開記録の同一性</h2>
+    <p>CC0で公開されたLUMINA-30資料は、複製・改変・再配布できます。ただし、CC0による許可は、改変版をハッシュ固定公開記録と同一にするものではありません。</p>
+    <p>改変版・拡張版では、正確な出典、出典URLまたはリポジトリ、該当する場合は版・日付・ハッシュ、再利用範囲、変更・追加内容、正式採用を主張する場合の決定権限主体を明示してください。</p>
+    <p><strong>ハッシュが異なれば記録同一性も異なります。</strong> LUMINA-30由来の文章であっても同じです。</p>
+  </section>
+
+  <section class="card" id="minimum-record">
+    <h2>7. 最小限の引用・利用記録</h2>
+    <ol><li>使用したLUMINA-30文書・ツールの正確な名称</li><li>出典URLまたはリポジトリ</li><li>利用可能な場合は版・日付・ハッシュ</li><li>利用範囲</li><li>改変・独自追加部分</li><li>採用を主張する場合は、実際の決定権限主体</li></ol>
+  </section>
+
+  <section class="card" id="misattribution">
+    <h2>8. 誤った帰属を訂正する場合</h2>
+    <ol><li>元の説明を第三者解釈として保存する。</li><li>問題が「存在しない要素の創作」なのか「実在資料のレイヤー誤分類」なのかを区別する。</li><li>現行の公開索引、公開参照、研究出典、事例ページ、ハッシュ固定公開記録のどこに属するかを確認する。</li><li>元の資料を削除せず、正しいレイヤー名へ訂正する。</li><li>独自追加部分を明示的にラベル付けする。</li><li>レイヤー誤分類や根拠のない追加要素を、LUMINA-30の正典的境界へ混入させない。</li></ol>
+    <p class="note"><strong>例：</strong>H、正規化された5／7／9閾値、停止訓練は、実在するPCR-C研究レイヤーの構成物です。訂正では、それらを消すのでもLUMINA-30の正典的境界として扱うのでもなく、正確な所属を表示します。</p>
+  </section>
+
+  <section class="card" id="boundary-note">
+    <h2>境界注記</h2>
+    <p>LUMINA-30は、非拘束の公開境界参照です。行動を命令せず、認証・適合状態を作らず、承認を与えず、安全を保証せず、採用実績を証明しません。</p>
+    <blockquote>不可逆化する前に、責任ある人間は、まだ実効的に拒否・停止・検証・延期・方向転換できるか。</blockquote>
+  </section>
+
+  <section class="card" id="routes">
+    <h2>公開参照導線</h2>
+    <div class="route-list">
+      <a class="route" href="index-ja.html"><strong>公開参照ハブ</strong><span>短い公開案内と導線です。</span></a>
+      <a class="route" href="https://github.com/lumina-30/lumina30-public-reference/blob/main/THIRD_PARTY_CITATION.md"><strong>第三者引用スターター</strong><span>中立的な引用・参照文言です。</span></a>
+      <a class="route" href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_INSTITUTIONAL_ADOPTION_PATH.html"><strong>制度的採用への道筋</strong><span>既存のLevel 0〜4表記です。</span></a>
+      <a class="route" href="https://lumina-30.github.io/Lumi30-Index/index-ja.html"><strong>全体系索引</strong><span>LUMINA-30全体の文書地図です。</span></a>
+      <a class="route" href="https://github.com/lumina-30/Lumi30-Public-Record"><strong>固定公開記録</strong><span>固定記録の同一性とハッシュを確認します。</span></a>
+    </div>
+  </section>
+
+  <footer><p>LUMINA-30境界参照ネットワーク。非拘束・非認証・非指令型の公開参照資料です。</p></footer>
+</main>
+</body>
+</html>

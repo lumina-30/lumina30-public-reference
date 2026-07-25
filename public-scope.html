@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="LUMINA-30 guidance for distinguishing fixed public records, operational resources, PCR-C research, illustrative examples, partial use, and independent extensions." />
+  <link rel="canonical" href="https://lumina-30.github.io/lumina30-public-reference/public-scope.html" />
+  <link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina30-public-reference/public-scope.html" />
+  <link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina30-public-reference/public-scope-ja.html" />
+  <title>LUMINA-30 Public Scope, Terminology, and Partial-Use Guidance</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --text: CanvasText; --muted: color-mix(in srgb, CanvasText 67%, Canvas 33%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --panel: color-mix(in srgb, Canvas 93%, CanvasText 7%); --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); --accent: LinkText; --shadow: color-mix(in srgb, CanvasText 14%, transparent 86%); }
+    * { box-sizing: border-box; } html { scroll-behavior: smooth; }
+    body { margin: 0; background: radial-gradient(circle at top left, color-mix(in srgb, LinkText 12%, transparent 88%), transparent 32rem), var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    a { color: var(--accent); } main { max-width: 1100px; margin: 0 auto; padding: 1.25rem 1.1rem 4rem; }
+    .topbar { position: sticky; top: 0; z-index: 2; backdrop-filter: blur(14px); background: color-mix(in srgb, Canvas 86%, transparent 14%); border-bottom: 1px solid var(--line); }
+    .topbar-inner { max-width: 1100px; margin: 0 auto; padding: .7rem 1.1rem; display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; }
+    .topbar a { display: inline-flex; align-items: center; border: 1px solid var(--line); background: var(--soft); border-radius: 999px; padding: .44rem .68rem; text-decoration: none; font-size: .94rem; }
+    header.hero { border: 1px solid var(--line); background: var(--panel); border-radius: 24px; padding: clamp(1.15rem, 3vw, 2rem); box-shadow: 0 18px 44px var(--shadow); margin: 1.1rem 0 1rem; }
+    .kicker { color: var(--muted); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: .82rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3.15rem); line-height: 1.08; margin: .18em 0 .35em; } h2 { font-size: clamp(1.35rem, 3vw, 1.85rem); line-height: 1.25; margin: 0 0 .65rem; } h3 { margin: 1.2rem 0 .35rem; }
+    p { margin: .55rem 0; } ul, ol { padding-left: 1.35rem; } li { margin: .35rem 0; }
+    .lead { color: var(--muted); font-size: clamp(1.04rem, 2.3vw, 1.22rem); max-width: 78ch; }
+    .card { border: 1px solid var(--line); background: var(--panel); border-radius: 18px; padding: clamp(1rem, 2.5vw, 1.35rem); margin: .9rem 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: .9rem; }
+    .note { border-left: 4px solid var(--accent); padding: .7rem 1rem; background: var(--soft); border-radius: 8px; }
+    .table-wrap { overflow-x: auto; margin: .7rem 0; } table { width: 100%; border-collapse: collapse; min-width: 720px; } th, td { border: 1px solid var(--line); padding: .72rem; text-align: left; vertical-align: top; } th { background: var(--soft); }
+    code { overflow-wrap: anywhere; } blockquote { margin: .8rem 0; padding: .7rem 1rem; border-left: 4px solid var(--accent); background: var(--soft); }
+    .route-list { display: grid; gap: .65rem; } .route { display: block; border: 1px solid var(--line); border-radius: 14px; padding: .78rem .9rem; background: var(--soft); text-decoration: none; } .route strong { display: block; } .route span { color: var(--muted); }
+    footer { border-top: 1px solid var(--line); margin-top: 2rem; padding-top: 1rem; color: var(--muted); } [id] { scroll-margin-top: 5rem; }
+  </style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-inner">
+  <a href="index.html">Public Reference</a>
+  <a href="https://lumina-30.github.io/Lumi30-Index/index.html">Index</a>
+  <a href="https://lumina-30.github.io/lumina-30-overview/index.html">Overview</a>
+  <a href="https://lumina-30.github.io/lumina30-incident-review/index.html">Incident Review</a>
+  <a href="public-scope-ja.html">Japanese</a>
+  <a href="https://github.com/lumina-30/lumina30-public-reference/blob/main/PUBLIC_SCOPE_TERMINOLOGY_PARTIAL_USE.md">Source</a>
+</div></div>
+<main id="top">
+  <header class="hero">
+    <div class="kicker">Source identity and use boundaries</div>
+    <h1>LUMINA-30 Public Scope, Terminology, and Partial-Use Guidance</h1>
+    <p class="lead">A compact guide for distinguishing fixed public records, LUMINA-30 operational resources, PCR-C research-layer constructs, published examples, partial use, and independent extensions.</p>
+    <p class="note"><strong>Boundary:</strong> This page does not amend the canon, create certification or compliance status, restrict CC0 reuse, prescribe implementation, or imply institutional authority.</p>
+  </header>
+
+  <section class="card" id="official-scope">
+    <h2>1. What “official public scope” means here</h2>
+    <p><strong>Official public scope</strong> means material whose identity can be traced to a current LUMINA-30 public index or public-reference route, or to a hash-fixed LUMINA-30 public record.</p>
+    <p>The word “official” describes <strong>source identity only</strong>. It does not imply ownership, endorsement, certification, compliance status, adoption, approval, or institutional authority.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Layer</th><th>Status and role</th><th>Examples</th></tr></thead>
+      <tbody>
+        <tr><td><strong>A. Hash-fixed public record</strong></td><td>Fixed record identity. A changed file is a different record and does not silently amend the fixed set.</td><td>Four foundational documents plus two SUP public-reference records.</td></tr>
+        <tr><td><strong>B. LUMINA-30 operational and public-reference resources</strong></td><td>Published tools and reference layers that operationalize or explain the boundary condition without amending Layer A.</td><td>Boundary Kernel, One-Question Pilot, Incident Review, Institutional Friction Toolkit, Stop Authority Reference, AI Accountability Reference.</td></tr>
+        <tr><td><strong>C. Associated research layer</strong></td><td>Research models associated with LUMINA-30 but not interchangeable with the LUMINA-30 canonical boundary.</td><td>PCR-C, infrastructure-layer scoring, calibration, H-measurement, thresholds, and stop-drill methods.</td></tr>
+        <tr><td><strong>D. Published illustrative examples</strong></td><td>Examples that explain application. They are not evidence of empirical validation, institutional adoption, or universal findings.</td><td>Closed-loop review, flash-crash, and medical-AI examples.</td></tr>
+        <tr><td><strong>E. Third-party interpretation or independent extension</strong></td><td>External analysis, implementation, metrics, examples, or derivatives. These do not enter the official public scope unless later published through a current official route.</td><td>Organization-specific scoring, dashboards, controls, policies, forks, or AI-generated additions.</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Hash-fixed public record</h3>
+    <div class="grid">
+      <div><strong>Four foundational documents</strong><ul>
+        <li><code>LUMINA-30_SanctuaryCharter20260110.pdf</code></li><li><code>LUMINA-30_ExternalPracticalAnnex20260110.pdf</code></li><li><code>LUMINA-30_NotesOnExecutionControl20260110.pdf</code></li><li><code>LUMINA-30_NonAcceleration20260110.pdf</code></li>
+      </ul></div>
+      <div><strong>Two SUP public-reference records</strong><ul>
+        <li><code>LUMINA-30_SUP_Sanctuary_Charter_JA_20260131.pdf</code></li><li><code>LUMINA-30_SUP_Sanctuary_Charter_EN_20260131.pdf</code></li>
+      </ul></div>
+    </div>
+    <p>For non-fixed resources, use the current public index and public-reference routes to determine whether an item belongs to Layer B, C, or D. AI summaries and third-party descriptions are not substitutes for that source check.</p>
+  </section>
+
+  <section class="card" id="distinctions">
+    <h2>2. Important distinctions</h2>
+    <div class="grid">
+      <div><h3>Boundary Kernel</h3><p>An AI-readable boundary reference—not a technical enforcement mechanism, proof that an AI cannot ignore text, or a safety guarantee.</p></div>
+      <div><h3>One-Question Pilot</h3><p>A practical entry point for an existing review, procurement, audit, deployment, incident, or governance process. Using the one question does not by itself mean that the full framework has been adopted.</p></div>
+      <div><h3>Incident Review</h3><p>Materials for examining whether refusal, stopping, verification, delay, redirection, evidence preservation, and responsibility remained effective. They are not a certification or audit service.</p></div>
+      <div><h3>PCR-C research layer</h3><p>A structural-control and infrastructure-layer research model associated with LUMINA-30. Its published calibration note includes intervention capacity <strong>H</strong>, normalized reference thresholds <strong>YELLOW = 5 / ORANGE = 7 / RED = 9</strong>, and a <strong>stop-drill</strong> method.</p></div>
+      <div><h3>Published examples</h3><p>Closed-loop review, flash-crash, and medical-AI pages are illustrative examples. They do not prove universal findings, empirical validation, institutional adoption, or legal authority.</p></div>
+      <div><h3>Adaptive resources</h3><p>Operational tools, explanatory pages, research context, examples, and navigation layers may evolve. They do not silently amend the hash-fixed public record.</p></div>
+    </div>
+    <p class="note">H, the 5/7/9 reference thresholds, calibration, and stop-drill methods are legitimate PCR-C research-layer constructs. The published PCR-C note states that they do not modify the LUMINA-30 canonical boundary.</p>
+  </section>
+
+  <section class="card" id="layer-errors">
+    <h2>3. Do not collapse published layers</h2>
+    <p>A published item may be genuine while still being described at the wrong layer.</p>
+    <ul>
+      <li>Describe the four foundational documents and two SUP records as the <strong>hash-fixed public record</strong>.</li>
+      <li>Describe Boundary Kernel, One-Question Pilot, Incident Review, and other current operational resources as <strong>LUMINA-30 tools or public-reference resources</strong>.</li>
+      <li>Describe PCR-C, H, the normalized 5/7/9 thresholds, calibration, and stop-drill methods as <strong>PCR-C research-layer constructs associated with LUMINA-30</strong>—not as the LUMINA-30 canonical boundary itself.</li>
+      <li>Describe closed-loop review, flash-crash, and medical-AI materials as <strong>published illustrative examples</strong>—not as universal empirical evidence or adoption records.</li>
+      <li>Describe external additions as <strong>third-party interpretation</strong> or an <strong>independent extension inspired by LUMINA-30</strong> unless the current public route identifies them otherwise.</li>
+    </ul>
+    <p>An AI-generated explanation, external paper, organizational implementation, repository fork, copied page, or third-party comparison does not change these layer identities. When a term cannot be verified, label it <strong>unverified attribution</strong>.</p>
+  </section>
+
+  <section class="card" id="adoption-language">
+    <h2>4. Accurate language for reference, pilot use, and adoption</h2>
+    <p>Use the existing LUMINA-30 Institutional Adoption Path rather than inventing a new adoption scale.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Existing level</th><th>What actually happened</th><th>Accurate description</th></tr></thead>
+      <tbody>
+        <tr><td>Level 0 — Public reference</td><td>LUMINA-30 was read, cited, linked, or discussed.</td><td>“References LUMINA-30.”</td></tr>
+        <tr><td>Level 1 — Internal review</td><td>The boundary question or One-Question Pilot was added to an internal governance, safety, release, procurement, or review workflow.</td><td>“Uses the LUMINA-30 boundary question / One-Question Pilot in an internal review.”</td></tr>
+        <tr><td>Level 2 — Incident / pre-incident review</td><td>LUMINA-30 was used in an incident, near-miss, or pre-release boundary review.</td><td>“Uses LUMINA-30 for incident or pre-incident review.”</td></tr>
+        <tr><td>Level 3 — Audit / procurement / contract / insurance interface</td><td>Evidence of effective human refusal was required in external-facing review documentation.</td><td>Describe the exact audit, procurement, contract, insurance, or oversight interface.</td></tr>
+        <tr><td>Level 4 — Regulatory or institutional incorporation</td><td>An authorized body explicitly included the boundary condition in a named policy, standard, or regulatory process.</td><td>“Formally incorporated LUMINA-30 in [instrument, version, date].”</td></tr>
+      </tbody>
+    </table></div>
+    <p>Using the One-Question Pilot counts as Level 1 only when the boundary question is actually added to an internal review workflow. Merely reading, citing, linking, or discussing it remains Level 0. Neither case is evidence that the entire framework was adopted.</p>
+    <p>Do not infer adoption, endorsement, approval, recognition, compliance, or certification from a citation, limited pilot, internal-library entry, link, fork, AI-generated answer, comparison table, statement of interest, or use of one tool.</p>
+    <p>When status is unclear, say <strong>referenced</strong>, <strong>used in an internal review</strong>, <strong>tested in a limited pilot</strong>, or <strong>used as a review aid</strong>—not <strong>adopted</strong>.</p>
+  </section>
+
+  <section class="card" id="partial-use">
+    <h2>5. Partial use and independent extensions</h2>
+    <p>Using only the One-Question Pilot, an Incident Review template, a checklist, or another single resource is legitimate partial use. It must not be described as implementation of the entire LUMINA-30 framework.</p>
+    <p>When an organization adds its own scores, thresholds, dashboards, drills, control logic, certification criteria, examples, or policy requirements, use this notice:</p>
+    <blockquote>This is an independent extension inspired by LUMINA-30. It is not an official LUMINA-30 component and does not amend the LUMINA-30 public record.</blockquote>
+  </section>
+
+  <section class="card" id="cc0-record-identity">
+    <h2>6. CC0 reuse and record identity</h2>
+    <p>LUMINA-30 materials released under CC0 may be copied, modified, and redistributed. CC0 permission does not make a modified copy identical to the hash-fixed public record.</p>
+    <p>A modified or extended work should identify the exact source, source URL or repository, version/date/hash where applicable, reused scope, changes or additions, and the actual adoption authority when formal adoption is claimed.</p>
+    <p><strong>A different hash means a different record identity</strong>, even when the text is derived from LUMINA-30.</p>
+  </section>
+
+  <section class="card" id="minimum-record">
+    <h2>7. Minimum citation and use record</h2>
+    <ol><li>Exact LUMINA-30 document or tool used.</li><li>Source URL or repository.</li><li>Version/date and hash where available.</li><li>Scope of use.</li><li>Modifications or independent additions.</li><li>Actual adoption authority, if adoption is claimed.</li></ol>
+  </section>
+
+  <section class="card" id="misattribution">
+    <h2>8. Correcting a misattribution</h2>
+    <ol><li>Preserve the original statement as a third-party interpretation.</li><li>Determine whether the problem is an invented item or a genuine item placed in the wrong layer.</li><li>Trace the item to the current public index, public reference, research source, example page, or hash-fixed public record.</li><li>Correct the label without deleting the underlying source.</li><li>Mark independent additions explicitly.</li><li>Do not merge a layer error or unsupported addition into the LUMINA-30 canonical boundary.</li></ol>
+    <p class="note"><strong>Example:</strong> H, the normalized 5/7/9 thresholds, and stop-drill methods are genuine PCR-C research-layer constructs. Correct the layer label—do not erase them and do not present them as the LUMINA-30 canonical boundary.</p>
+  </section>
+
+  <section class="card" id="boundary-note">
+    <h2>Boundary note</h2>
+    <p>LUMINA-30 is a non-binding public boundary reference. It does not mandate action, create certification or compliance status, grant approval, guarantee safety, or prove adoption.</p>
+    <blockquote>Before irreversible escalation, can a responsible human still effectively refuse, stop, verify, delay, or redirect the process?</blockquote>
+  </section>
+
+  <section class="card" id="routes">
+    <h2>Public reference routes</h2>
+    <div class="route-list">
+      <a class="route" href="index.html"><strong>Public Reference Hub</strong><span>Compact public orientation and navigation.</span></a>
+      <a class="route" href="https://github.com/lumina-30/lumina30-public-reference/blob/main/THIRD_PARTY_CITATION.md"><strong>Third-Party Citation Starter</strong><span>Neutral wording for citation and reference.</span></a>
+      <a class="route" href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_INSTITUTIONAL_ADOPTION_PATH.html"><strong>Institutional Adoption Path</strong><span>Existing Level 0–4 adoption framing.</span></a>
+      <a class="route" href="https://lumina-30.github.io/Lumi30-Index/index.html"><strong>Whole-network Index</strong><span>Full LUMINA-30 document map.</span></a>
+      <a class="route" href="https://github.com/lumina-30/Lumi30-Public-Record"><strong>Fixed Public Record</strong><span>Fixed record identity and hashes.</span></a>
+    </div>
+  </section>
+
+  <footer><p>LUMINA-30 public reference network. Non-binding; non-certifying; non-directive.</p></footer>
+</main>
+</body>
+</html>
