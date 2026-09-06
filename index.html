@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
+<script>
+/* L30_THEME_FALLBACK_BOOT_BEGIN */
+(function(){
+  try {
+    var t = localStorage.getItem('l30-color-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-l30-theme', t);
+  } catch (e) {}
+})();
+/* L30_THEME_FALLBACK_BOOT_END */
+</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="l30:lang-lock" content="EN_ONLY" />
@@ -113,8 +123,84 @@
     footer { border-top: 1px solid var(--line); margin-top: 2rem; padding-top: 1rem; color: var(--muted); }
     [id] { scroll-margin-top: 5rem; }
   </style>
+<style>
+/* L30_THEME_FALLBACK_STYLE_BEGIN */
+:root[data-l30-theme="light"] {
+  color-scheme: light;
+  --bg: #F7F9FC;
+  --paper: #FFFFFF;
+  --panel: #FFFFFF;
+  --ink: #1E2732;
+  --text: #1E2732;
+  --muted: #5D6B78;
+  --line: #D8E2EC;
+  --border: #D8E2EC;
+  --accent: #2F6FA3;
+  --accent-soft: #E8EEF5;
+  --soft: #E8EEF5;
+  --warn: #1E2732;
+  --shadow: rgba(30, 39, 50, .14);
+  --halo: rgba(47, 111, 163, .12);
+  --topbar: rgba(247, 249, 252, .86);
+}
+:root[data-l30-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0F1720;
+  --paper: #182330;
+  --panel: #182330;
+  --ink: #EAF2F9;
+  --text: #EAF2F9;
+  --muted: #AFC0D2;
+  --line: #294153;
+  --border: #294153;
+  --accent: #8FC9FF;
+  --accent-soft: #1B2E3D;
+  --soft: #1B2E3D;
+  --warn: #EAF2F9;
+  --shadow: rgba(0, 0, 0, .28);
+  --halo: rgba(143, 201, 255, .12);
+  --topbar: rgba(15, 23, 32, .86);
+}
+.l30-theme-control {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: .42rem 1.1rem .25rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .45rem;
+  color: var(--muted);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: .82rem;
+  line-height: 1.4;
+}
+.l30-theme-control label { font-weight: 650; }
+.l30-theme-control select {
+  color: var(--text);
+  background: var(--panel, var(--paper, #FFFFFF));
+  border: 1px solid var(--line, var(--border, #D8E2EC));
+  border-radius: 999px;
+  padding: .3rem .58rem;
+  font: inherit;
+}
+.l30-theme-control select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+/* L30_THEME_FALLBACK_STYLE_END */
+</style>
 </head>
 <body>
+<!-- L30_THEME_FALLBACK_CONTROL_BEGIN -->
+<div class="l30-theme-control" role="group" aria-label="Color theme">
+  <label for="l30-theme-select">Theme</label>
+  <select id="l30-theme-select" aria-label="Color theme">
+    <option value="auto">Auto</option>
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+  </select>
+</div>
+<!-- L30_THEME_FALLBACK_CONTROL_END -->
 <div class="topbar"><div class="topbar-inner">
     <a href="https://lumina-30.github.io/lumina-30-overview/index.html#top">Overview</a>
     <a href="https://lumina-30.github.io/Lumi30-Index/index.html#top">Index</a>
@@ -154,6 +240,31 @@
     <p>LUMINA-30 boundary reference network. Non-binding; non-certifying; non-directive.</p>
   </footer>
 </main>
+<script>
+/* L30_THEME_FALLBACK_RUNTIME_BEGIN */
+(function(){
+  var root = document.documentElement;
+  var select = document.getElementById('l30-theme-select');
+  if (!select) return;
+  var saved = 'auto';
+  try {
+    var stored = localStorage.getItem('l30-color-theme');
+    if (stored === 'light' || stored === 'dark') saved = stored;
+  } catch (e) {}
+  select.value = saved;
+  function applyTheme(theme) {
+    if (theme === 'light' || theme === 'dark') {
+      root.setAttribute('data-l30-theme', theme);
+      try { localStorage.setItem('l30-color-theme', theme); } catch (e) {}
+    } else {
+      root.removeAttribute('data-l30-theme');
+      try { localStorage.removeItem('l30-color-theme'); } catch (e) {}
+    }
+  }
+  select.addEventListener('change', function(){ applyTheme(select.value); });
+})();
+/* L30_THEME_FALLBACK_RUNTIME_END */
+</script>
 </body>
 </html>
 
