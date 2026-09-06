@@ -7,22 +7,39 @@
   <title>LUMINA-30 公開参照</title>
   <style>
     :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 67%, Canvas 33%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --panel: color-mix(in srgb, Canvas 93%, CanvasText 7%);
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-      --accent: LinkText;
-      --shadow: color-mix(in srgb, CanvasText 14%, transparent 86%);
+      color-scheme: light;
+      --bg: #F7F9FC;
+      --text: #1E2732;
+      --muted: #5D6B78;
+      --line: #D8E2EC;
+      --panel: #FFFFFF;
+      --soft: #E8EEF5;
+      --accent: #2F6FA3;
+      --shadow: rgba(30, 39, 50, .14);
+      --halo: rgba(47, 111, 163, .12);
+      --topbar: rgba(247, 249, 252, .86);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --bg: #0F1720;
+        --text: #EAF2F9;
+        --muted: #AFC0D2;
+        --line: #294153;
+        --panel: #182330;
+        --soft: #1B2E3D;
+        --accent: #8FC9FF;
+        --shadow: rgba(0, 0, 0, .28);
+        --halo: rgba(143, 201, 255, .12);
+        --topbar: rgba(15, 23, 32, .86);
+      }
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
       background:
-        radial-gradient(circle at top left, color-mix(in srgb, LinkText 12%, transparent 88%), transparent 32rem),
+        radial-gradient(circle at top left, var(--halo), transparent 32rem),
         var(--bg);
       color: var(--text);
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -35,7 +52,7 @@
       top: 0;
       z-index: 2;
       backdrop-filter: blur(14px);
-      background: color-mix(in srgb, Canvas 86%, transparent 14%);
+      background: var(--topbar);
       border-bottom: 1px solid var(--line);
     }
     .topbar-inner {
