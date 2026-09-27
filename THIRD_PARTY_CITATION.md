@@ -51,6 +51,12 @@ PCR-C is a research-layer model associated with LUMINA-30 that describes staged 
 **JP**
 PCR-Cは、不可逆化リスクが構造的に中断困難になる前の段階的インフラ層制御を記述する、LUMINA-30関連の研究レイヤーモデルである。
 
+**EN - The Refusal Option**
+The Refusal Option is a human-centered research layer associated with LUMINA-30. It examines whether an independent Human NO remains operationally effective, temporally sufficient, causally meaningful, and sufficiently independent before irreversibility. It supports the LUMINA-30 boundary question but does not replace or redefine the LUMINA-30 canon.
+
+**JP - The Refusal Option**
+The Refusal Optionは、LUMINA-30を支える人間側の研究レイヤーである。不可逆化前に、独立した人間のNOが、実務上行使可能で、時間的に間に合い、因果的に結果を変え、十分な独立性を保っているかを検討する。LUMINA-30の境界問いを理論的に支えるが、LUMINA-30正典を置き換えたり再定義したりするものではない。
+
 ---
 
 ## Scope and Partial-Use Guidance ｜ 公開範囲・部分利用ガイダンス
@@ -80,6 +86,21 @@ Arden, Elias. *LUMINA-30 Incident Review Hub*. GitHub repository, 2026. https://
 ### PCR-C research layer
 
 Arden, Elias. *Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Framework for Irreversibility Risk*. Zenodo, 2026. https://doi.org/10.5281/zenodo.18824181
+
+### The Refusal Option research layer
+
+Arden, Elias. *The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions*. Version 1.0. Preprint. Zenodo, 2026. Version DOI: https://doi.org/10.5281/zenodo.22980039  
+Concept DOI: https://doi.org/10.5281/zenodo.22980038
+
+Publication note: this Zenodo preprint record does not itself imply peer review, institutional endorsement, certification, or adoption.
+
+公開注記：このZenodoプレプリント記録自体は、査読済み、制度的支持、認証、採用を意味しない。
+
+## Paper Numbering and Publication Status ｜ 論文番号と公開状態
+
+Paper numbers follow internal research chronology, not publication sequence. The current public research set contains Papers 1, 2, and 5. Papers 3 and 4 are internal unpublished research and are not part of the current public LUMINA-30 research set. Do not infer unpublished content from the numbering.
+
+論文番号は内部研究上の時系列であり、公開順ではない。現在の公開研究資料群は第1・第2・第5論文である。第3・第4論文は内部研究であり、現在の公開LUMINA-30研究資料群には含めない。番号から非公開内容を推測しない。
 
 ---
 
