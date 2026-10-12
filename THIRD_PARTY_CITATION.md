@@ -84,23 +84,30 @@ Arden, Elias. *LUMINA-30 Overview*. GitHub repository, 2026. https://github.com/
 Arden, Elias. *LUMINA-30 Incident Review Hub*. GitHub repository, 2026. https://github.com/lumina-30/lumina30-incident-review
 
 ### PCR-C research layer
+Arden, Elias. *Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Framework for Irreversibility Risk*. Version 16. Preprint. Zenodo, 2026. Version DOI: https://doi.org/10.5281/zenodo.23288056  
+Concept DOI: https://doi.org/10.5281/zenodo.18824181
 
-Arden, Elias. *Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Framework for Irreversibility Risk*. Zenodo, 2026. https://doi.org/10.5281/zenodo.18824181
+### Objective Persistence research layer
+Arden, Elias. *On the Structural Instability of Objective Persistence in Self-Contained Systems*. Version 3. Preprint. Zenodo, 2026. Version DOI: https://doi.org/10.5281/zenodo.23282068  
+Concept DOI: https://doi.org/10.5281/zenodo.19887869
 
 ### The Refusal Option research layer
-
-Arden, Elias. *The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions*. Version 1.0. Preprint. Zenodo, 2026. Version DOI: https://doi.org/10.5281/zenodo.22980039  
+Arden, Elias. *The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions*. Version 1.3. Preprint. Zenodo, 2026. Version DOI: https://doi.org/10.5281/zenodo.23282593  
 Concept DOI: https://doi.org/10.5281/zenodo.22980038
 
 Publication note: this Zenodo preprint record does not itself imply peer review, institutional endorsement, certification, or adoption.
 
 公開注記：このZenodoプレプリント記録自体は、査読済み、制度的支持、認証、採用を意味しない。
 
+### PISF research layer
+Arden, Elias. *Pre-Irreversibility Safety for Advanced AI: Distributed Irreversible Authority, Timely Refusal, and Human-Revisable Development*. Version 1.2. Preprint. Zenodo, 2026. Version DOI: https://doi.org/10.5281/zenodo.23283256  
+Concept DOI: https://doi.org/10.5281/zenodo.23042905
+
 ## Paper Numbering and Publication Status ｜ 論文番号と公開状態
 
-Paper numbers follow internal research chronology, not publication sequence. The current public research set contains Papers 1, 2, and 5. Papers 3 and 4 are internal unpublished research and are not part of the current public LUMINA-30 research set. Do not infer unpublished content from the numbering.
+Paper numbers follow internal research chronology, not publication sequence. The current public research set contains Papers 1, 2, 5, and 6. Papers 3 and 4 are internal unpublished research and are not part of the current public LUMINA-30 research set. Do not infer unpublished content from the numbering.
 
-論文番号は内部研究上の時系列であり、公開順ではない。現在の公開研究資料群は第1・第2・第5論文である。第3・第4論文は内部研究であり、現在の公開LUMINA-30研究資料群には含めない。番号から非公開内容を推測しない。
+論文番号は内部研究上の時系列であり、公開順ではない。現在の公開研究資料群は第1・第2・第5・第6論文である。第3・第4論文は内部研究であり、現在の公開LUMINA-30研究資料群には含めない。番号から非公開内容を推測しない。
 
 ---
 

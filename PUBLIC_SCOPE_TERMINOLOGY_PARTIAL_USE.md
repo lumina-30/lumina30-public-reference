@@ -30,7 +30,7 @@ The word “official” describes **source identity only**. It does not imply ow
 |---|---|---|
 | A. Hash-fixed public record | Fixed record identity. Changes produce a different record and do not silently amend the fixed set. | Four foundational documents plus two SUP public-reference records |
 | B. LUMINA-30 operational and public-reference resources | Published tools and reference layers that operationalize or explain the boundary condition without amending Layer A. | Boundary Kernel, One-Question Pilot, Incident Review materials, Institutional Friction Toolkit, Stop Authority Reference, AI Accountability Reference |
-| C. Associated research layer | Research models associated with LUMINA-30 but not interchangeable with the LUMINA-30 canonical boundary. | PCR-C and its infrastructure-layer scoring, calibration, H-measurement, thresholds, and stop-drill methods; Paper 2 (existence-condition/external-anchor); Paper 5 / The Refusal Option (human-standing/effective-refusal/decision-governance) |
+| C. Associated research layer | Research models associated with LUMINA-30 but not interchangeable with the LUMINA-30 canonical boundary. | PCR-C and its infrastructure-layer scoring, calibration, H-measurement, thresholds, and stop-drill methods; Paper 2 (existence-condition/assurance-independence); Paper 5 / The Refusal Option (human-standing/effective-refusal/decision-governance) |
 | D. Published illustrative examples | LUMINA-30 example pages used to explain application. They are not evidence of empirical validation, institutional adoption, or universal findings. | Closed-loop review, flash-crash, and medical-AI examples |
 | E. Third-party interpretation or independent extension | External analysis, implementation, metrics, examples, or derivatives. These do not enter the official public scope unless later published through a current official route. | Organization-specific scoring, dashboards, controls, policies, forks, or AI-generated additions |
 
@@ -72,11 +72,14 @@ PCR-C is a structural control and infrastructure-layer research model associated
 
 These are legitimate PCR-C research-layer constructs. They are not empirically universal constants, and the published PCR-C note explicitly states that they do not modify the LUMINA-30 canonical boundary.
 
-### Public Paper 2 and Paper 5 research layers
+### Public Papers 2, 5, and 6 research layers
+The current public research series is Papers 1, 2, 5, and 6. Paper 2 provides an existence-condition / assurance-independence research layer. Its current Version 3 result is conditional: when the same amendment authority can co-amend the objective and persistence-relevant validation basis so that a positive verdict survives a masking change, that verdict is not amendment-independent evidence of persistence. A defensible basis may be internal or external, but must remain outside the amendment authority being assessed.
 
-The current public research series is Papers 1, 2, and 5. Paper 2 provides an existence-condition / external-anchor supporting layer. Paper 5, *The Refusal Option*, provides the human-standing / effective-refusal / decision-governance research layer. These research layers support LUMINA-30 but do not define, replace, or amend the canon.
+Paper 5, *The Refusal Option*, provides the human-standing / effective-refusal / decision-governance research layer. RET in Paper 5 is a research framework, not a certification, safety guarantee, official safety test, or proof that Human NO is guaranteed against superintelligence.
 
-RET in Paper 5 is a research framework. It is not a certification, safety guarantee, official safety test, or proof that Human NO is guaranteed against superintelligence. Papers 3 and 4 are internal unpublished research and are outside the current public research set; this guidance does not describe their content.
+Paper 6, *Pre-Irreversibility Safety for Advanced AI*, provides the PISF integrated research layer: Distributed Irreversible Authority, Effective Pre-Irreversibility Refusal, and Human-Revisable Development Viability, with Boundary Completeness, Model Adequacy, and Independent Assurance treated as assurance conditions.
+
+These research layers support LUMINA-30 but do not define, replace, or amend the canon. Papers 3 and 4 are internal unpublished research and remain outside the current public research set; this guidance does not describe their content.
 
 ### Published examples
 
@@ -95,7 +98,7 @@ Use these distinctions:
 - Describe the four foundational documents and two SUP records as the **hash-fixed public record**.
 - Describe Boundary Kernel, One-Question Pilot, Incident Review, and other current operational resources as **LUMINA-30 tools or public-reference resources**.
 - Describe PCR-C, H, the normalized 5/7/9 thresholds, calibration, and stop-drill methods as **PCR-C research-layer constructs associated with LUMINA-30**—not as the LUMINA-30 canonical boundary itself.
-- Describe the current public research series as **Papers 1, 2, and 5**: Paper 1 / PCR-C as infrastructure/control, Paper 2 as existence-condition/external-anchor, and Paper 5 / The Refusal Option as human-standing/effective-refusal/decision-governance. Research supports LUMINA-30; it does not define the canon.
+- Describe the current public research series as **Papers 1, 2, 5, and 6**: Paper 1 / PCR-C as infrastructure/control, Paper 2 as existence-condition/assurance-independence, Paper 5 / The Refusal Option as human-standing/effective-refusal/decision-governance, and Paper 6 / PISF as integrated irreversible-authority/refusal/revisability research with distinct assurance conditions. Research supports LUMINA-30; it does not define the canon.
 - Describe closed-loop review, flash-crash, and medical-AI materials as **published illustrative examples**—not as universal empirical evidence or adoption records.
 - Describe external additions as **third-party interpretation** or an **independent extension inspired by LUMINA-30** unless the current public route identifies them otherwise.
 
@@ -224,7 +227,7 @@ Its central practical question remains:
 |---|---|---|
 | A. ハッシュ固定公開記録 | 固定された記録同一性を持つ。変更版は別記録となり、固定セットを暗黙に修正しない | 基礎4文書＋SUP公開参照記録2文書 |
 | B. LUMINA-30実務・公開参照資料 | 境界条件を実務化・説明する公開ツール。レイヤーAを修正しない | Boundary Kernel、One-Question Pilot、Incident Review、Institutional Friction Toolkit、Stop Authority Reference、AI Accountability Reference |
-| C. 関連研究レイヤー | LUMINA-30に関連する研究モデル。ただしLUMINA-30の正典的境界そのものとは同一ではない | PCR-C、およびインフラ層スコアリング、校正、H測定、閾値、停止訓練；第2論文（存在条件・外部アンカー）；第5論文／The Refusal Option（human-standing・実効的拒否・意思決定ガバナンス） |
+| C. 関連研究レイヤー | LUMINA-30に関連する研究モデル。ただしLUMINA-30の正典的境界そのものとは同一ではない | PCR-C、およびインフラ層スコアリング、校正、H測定、閾値、停止訓練；第2論文（存在条件・保証独立性）；第5論文／The Refusal Option（human-standing・実効的拒否・意思決定ガバナンス） |
 | D. 公開説明用事例 | LUMINA-30の適用方法を示す例示ページ。実証済み普遍法則、制度採用、外部実績の証拠ではない | 閉ループ審査、フラッシュクラッシュ、医療AIの事例 |
 | E. 第三者解釈・独自拡張 | 外部分析、実装、指標、事例、派生物。現行の公式公開導線へ正式掲載されない限り、公式公開範囲へ入らない | 組織独自スコア、ダッシュボード、制御、方針、fork、AI生成の追加要素 |
 
@@ -266,11 +269,14 @@ PCR-Cは、LUMINA-30に関連する構造的制御・インフラ層研究モデ
 
 これらは実在するPCR-C研究レイヤーの構成物です。ただし、経験的に普遍な定数ではなく、公開済みPCR-CノートもLUMINA-30の正典的境界を変更しないと明記しています。
 
-### 公開第2・第5論文の研究レイヤー
+### 公開第2・第5・第6論文の研究レイヤー
+現在の公開研究系列は第1・第2・第5・第6論文です。第2論文は存在条件・保証独立性を扱う研究レイヤーです。現行Version 3の結論は条件付きであり、同一のamendment authorityが目的と目的持続性の検証基盤を共に変更し、masking change後も正判定を維持できる場合、その判定はamendment-independentな目的持続性の証拠にはなりません。必要な検証基盤は物理的に外部である必要はありませんが、評価対象のamendment authorityから独立していなければなりません。
 
-現在の公開研究系列は第1・第2・第5論文です。第2論文は存在条件・外部アンカーを扱う補助研究レイヤー、第5論文 *The Refusal Option* はhuman-standing・実効的拒否・意思決定ガバナンスを扱う人間側研究レイヤーです。これらの研究はLUMINA-30を支えますが、正典を定義・置換・修正しません。
+第5論文 *The Refusal Option* はhuman-standing・実効的拒否・意思決定ガバナンスを扱う研究レイヤーです。RETは研究フレームワークであり、認証、安全保証、公式安全テスト、または超知能に対するHuman NOの保証ではありません。
 
-第5論文のRETは研究フレームワークであり、認証、安全保証、公式安全テスト、または超知能に対するHuman NOの保証ではありません。第3・第4論文は内部研究・非公開で、現在の公開研究資料群には含まれず、本ガイダンスではその内容を説明しません。
+第6論文 *Pre-Irreversibility Safety for Advanced AI* はPISFの統合研究レイヤーを提供します。Distributed Irreversible Authority、Effective Pre-Irreversibility Refusal、Human-Revisable Development Viabilityを扱い、Boundary Completeness、Model Adequacy、Independent Assuranceを保証条件として分離します。
+
+これらの研究はLUMINA-30を支えますが、正典を定義・置換・修正しません。第3・第4論文は内部研究・非公開で、現在の公開研究資料群には含まれず、本ガイダンスではその内容を説明しません。
 
 ### 公開説明用事例
 
@@ -289,7 +295,7 @@ PCR-Cは、LUMINA-30に関連する構造的制御・インフラ層研究モデ
 - 基礎4文書とSUP記録2文書は、**ハッシュ固定公開記録**と表現する。
 - Boundary Kernel、One-Question Pilot、Incident Review等は、**LUMINA-30実務ツール／公開参照資料**と表現する。
 - PCR-C、H、正規化された5／7／9閾値、校正、停止訓練は、**LUMINA-30に関連するPCR-C研究レイヤーの構成物**と表現し、LUMINA-30の正典的境界そのものとは書かない。
-- 現在の公開研究系列は**第1・第2・第5論文**と表現する。第1論文／PCR-Cはインフラ・制御、第2論文は存在条件・外部アンカー、第5論文／The Refusal Optionはhuman-standing・実効的拒否・意思決定ガバナンスの研究レイヤーである。研究はLUMINA-30を支えるが、正典を定義しない。
+- 現在の公開研究系列は**第1・第2・第5・第6論文**と表現する。第1論文／PCR-Cはインフラ・制御、第2論文は存在条件・保証独立性、第5論文／The Refusal Optionはhuman-standing・実効的拒否・意思決定ガバナンス、第6論文／PISFは不可逆権限・実効的拒否・人間が発展経路を選び直せる状態の統合研究と独立した保証条件を扱う。研究はLUMINA-30を支えるが、正典を定義しない。
 - 閉ループ審査、フラッシュクラッシュ、医療AIは、**公開説明用事例**と表現し、普遍的な実証結果や採用実績とは書かない。
 - 外部で追加された要素は、現行の公式公開導線で別の位置づけが確認できない限り、**第三者解釈**または**LUMINA-30に着想を得た独自拡張**と表現する。
 
